@@ -9,6 +9,7 @@ EAGLEの推奨バージョンは9.6.2です。
 - computers : コンピュータ及びマイクロコンピュータ　ex)jetson nano, raspberypi, arduino
 - sensors   : 各センサモジュール　ex)BNO055, BMP180
 - element   : 回路素子　ex)PchMosfet, DCDCconverter
+- motor     : モーター関連のモジュール　ex)モータードライバ, エンコーダ
 - connector : コネクタ類
 ## 3Dmodels
 EAGLEにデフォルトで3Dデータが登録されていない部品の3Dデータ(*step)をアップロードしてください。
