@@ -5,7 +5,7 @@ EAGLEのschファイルとbrdファイルを同じ名前のフォルダ内に保
 EAGLEの推奨バージョンは9.6.2です。
 ## libraries
 各モジュールのライブラリを共有します。/computers /sensors /element /motor /connectorの5つの
-ファルだを用意しています。以下の基準に従って分類して下さい。
+フォルダを用意しています。以下の基準に従って分類して下さい。
 - computers : コンピュータ及びマイクロコンピュータ　ex)jetson nano, raspberypi, arduino
 - sensors   : 各センサモジュール　ex)BNO055, BMP180
 - element   : 回路素子　ex)PchMosfet, DCDCconverter
