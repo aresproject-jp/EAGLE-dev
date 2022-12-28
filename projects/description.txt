@@ -1,5 +1,5 @@
 any comment is OK
 
 power_supply => @kato shunsuke
-jetson => @saizaki tomoki
+jetson => @saizaki tomok
 arduino => @higuchi huka
