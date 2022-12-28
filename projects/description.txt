@@ -1,5 +1,39 @@
 any comment is OK
 
 power_supply => @kato shunsuke
-jetson => @saizaki tomok
+jetson => @saizaki tomoki
 arduino => @higuchi huka
+
+controll unit{
+    module:jetson, BNO055, BMP180, CAN(MCP2562), GPS, 2.4GHz wireless communication module
+    powersupply:5V from PU
+    fan
+    camera
+    interface:terminalblock => 5V,GND CANH,CAL * 2
+
+    eagle library:jetson, GPS, wirelessPin(5V,3V3, GND, RX, TX) 15min * 3 = 45min
+    schematic 60min
+    bord 30min
+    3D ×
+    deadline 1/3
+
+    progress:
+}
+
+motor unit{
+    module:ArduinoMega, motordriver(screw hole + terminalblock),CAN, encoder(4lines)
+    powersupply:5V,18V from PU
+    interface:terminalblock => 5V,GND,18V,CANH,CANL * 2
+              connector => 4*4
+    eagle library:motordriver,MCP2515r,ArduinoMega
+}
+
+power unit{
+    eagle library:pulse generator
+}
+
+asks{
+    systems => kato
+    e-mail => zaki
+    deadline 1/3
+}
