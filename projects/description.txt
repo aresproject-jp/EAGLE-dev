@@ -2,7 +2,7 @@ any comment is OK
 
 power_supply => @kato shunsuke
 jetson => @saizaki tomoki
-arduino => @higuchi huka
+arduino => @higuchi fuka
 
 controll unit{
     module:jetson, BNO055, BMP180, CAN(MCP2562), GPS, 2.4GHz wireless communication module
@@ -33,7 +33,7 @@ power unit{
 }
 
 asks{
-    systems => kato
+    systems, write down questions => kato
     e-mail => zaki
     deadline 1/3
 }
