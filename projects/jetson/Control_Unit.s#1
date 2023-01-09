@@ -698,11 +698,8 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.762" drill="0">
-<clearance class="0" value="0.381"/>
-</class>
-<class number="1" name="PW" width="1.778" drill="0">
-<clearance class="1" value="1.016"/>
+<class number="0" name="default" width="3.429" drill="0">
+<clearance class="0" value="1.016"/>
 </class>
 </classes>
 <parts>
@@ -892,7 +889,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="40.64" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="1">
+<net name="N$8" class="0">
 <segment>
 <pinref part="X2" gate="-1" pin="KL"/>
 <wire x1="-63.5" y1="-91.44" x2="-63.5" y2="-73.66" width="0.1524" layer="91"/>
@@ -902,7 +899,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="35.56" y1="50.8" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="1">
+<net name="N$11" class="0">
 <segment>
 <pinref part="JN1" gate="G$1" pin="5V-2"/>
 <wire x1="12.7" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
