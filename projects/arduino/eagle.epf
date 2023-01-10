@@ -271,12 +271,11 @@ UsedLibrary="/Users/fuka/EAGLE-dev/libraries/computers/ArduinoMega.lbr"
 UsedLibrary="/Users/fuka/EAGLE-dev/libraries/elements/MCP2562.lbr"
 UsedLibrary="/Users/fuka/EAGLE-dev/libraries/elements/IM920.lbr"
 UsedLibrary="/Users/fuka/EAGLE-dev/libraries/elements/HUSG20.lbr"
-UsedLibrary="/Users/fuka/Downloads/Cytron_EAGLE-Libraries-and-Settings-master/lbr/Module.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="2542 900"
+Screen="1440 900"
 Window="Win_1"

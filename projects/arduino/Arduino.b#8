@@ -7897,11 +7897,29 @@ Mors</description>
 <wire x1="4.49" y1="-2.2" x2="4.49" y2="2.3" width="0.127" layer="21"/>
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="2PIN_SIDE" urn="urn:adsk.eagle:footprint:38473893/2" library_version="6">
+<pad name="P$1" x="-1.27" y="0" drill="1.2" shape="square"/>
+<pad name="P$2" x="1.27" y="0" drill="1.2" shape="square"/>
+<wire x1="3.72" y1="2.3" x2="3.72" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="3.72" y1="-9.2" x2="-3.72" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="-3.72" y1="-9.2" x2="-3.72" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.72" y1="2.3" x2="-3.22" y2="2.3" width="0.127" layer="21"/>
+<wire x1="3.22" y1="2.3" x2="3.72" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.22" y1="2.3" x2="-3.22" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-3.22" y1="-2.2" x2="3.22" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="3.22" y1="-2.2" x2="3.22" y2="2.3" width="0.127" layer="21"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="3PIN_SIDE" urn="urn:adsk.eagle:package:38473898/3" type="model" library_version="6">
 <packageinstances>
 <packageinstance name="3PIN_SIDE"/>
+</packageinstances>
+</package3d>
+<package3d name="2PIN_SIDE" urn="urn:adsk.eagle:package:38473899/4" type="model" library_version="6">
+<packageinstances>
+<packageinstance name="2PIN_SIDE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -8218,6 +8236,18 @@ design rules under a new name.</description>
 </element>
 <element name="SV4" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" package="3PIN_SIDE" package3d_urn="urn:adsk.eagle:package:38473898/3" value="" x="-195.58" y="-170.18" smashed="yes">
 <attribute name="NAME" x="-199.39" y="-167.64" size="1.27" layer="25"/>
+</element>
+<element name="POW" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" package="2PIN_SIDE" package3d_urn="urn:adsk.eagle:package:38473899/4" value="" x="-196.85" y="-184.15" smashed="yes">
+<attribute name="NAME" x="-199.39" y="-181.61" size="1.27" layer="25"/>
+</element>
+<element name="POW1" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" package="2PIN_SIDE" package3d_urn="urn:adsk.eagle:package:38473899/4" value="" x="-196.85" y="-198.12" smashed="yes">
+<attribute name="NAME" x="-199.39" y="-195.58" size="1.27" layer="25"/>
+</element>
+<element name="POW2" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" package="2PIN_SIDE" package3d_urn="urn:adsk.eagle:package:38473899/4" value="" x="-196.85" y="-212.09" smashed="yes">
+<attribute name="NAME" x="-199.39" y="-209.55" size="1.27" layer="25"/>
+</element>
+<element name="POW3" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" package="2PIN_SIDE" package3d_urn="urn:adsk.eagle:package:38473899/4" value="" x="-196.85" y="-226.06" smashed="yes">
+<attribute name="NAME" x="-199.39" y="-223.52" size="1.27" layer="25"/>
 </element>
 </elements>
 <signals>

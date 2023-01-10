@@ -15271,11 +15271,29 @@ Mors</description>
 <wire x1="4.49" y1="-2.2" x2="4.49" y2="2.3" width="0.127" layer="21"/>
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="2PIN_SIDE" urn="urn:adsk.eagle:footprint:38473893/2" library_version="6">
+<pad name="P$1" x="-1.27" y="0" drill="1.2" shape="square"/>
+<pad name="P$2" x="1.27" y="0" drill="1.2" shape="square"/>
+<wire x1="3.72" y1="2.3" x2="3.72" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="3.72" y1="-9.2" x2="-3.72" y2="-9.2" width="0.127" layer="21"/>
+<wire x1="-3.72" y1="-9.2" x2="-3.72" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.72" y1="2.3" x2="-3.22" y2="2.3" width="0.127" layer="21"/>
+<wire x1="3.22" y1="2.3" x2="3.72" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.22" y1="2.3" x2="-3.22" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-3.22" y1="-2.2" x2="3.22" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="3.22" y1="-2.2" x2="3.22" y2="2.3" width="0.127" layer="21"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="3PIN_SIDE" urn="urn:adsk.eagle:package:38473898/3" type="model" library_version="6">
 <packageinstances>
 <packageinstance name="3PIN_SIDE"/>
+</packageinstances>
+</package3d>
+<package3d name="2PIN_SIDE" urn="urn:adsk.eagle:package:38473899/4" type="model" library_version="6">
+<packageinstances>
+<packageinstance name="2PIN_SIDE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -15312,6 +15330,37 @@ Mors</description>
 <wire x1="5.842" y1="5.08" x2="6.35" y2="5.08" width="0.254" layer="94"/>
 <text x="5.08" y="-2.54" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="2PIN_SIDE" urn="urn:adsk.eagle:symbol:38473896/1" library_version="6">
+<pin name="P$1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="-2.54" y="-2.54" visible="off" length="short" rot="R90"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="1.778" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.778" y1="3.048" x2="1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.048" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-3.302" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="3.048" x2="-3.302" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="2.54" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="3.048" x2="-3.048" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="3.048" x2="1.778" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="3.048" x2="-3.048" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-0.762" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="5.08" x2="-1.524" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="4.318" x2="-1.016" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="4.318" x2="-0.254" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="5.08" x2="2.794" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.794" y1="5.08" x2="2.032" y2="4.318" width="0.254" layer="94"/>
+<wire x1="2.032" y1="4.318" x2="2.54" y2="4.318" width="0.254" layer="94"/>
+<wire x1="2.54" y1="4.318" x2="3.302" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.302" y1="5.08" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<text x="2.54" y="-2.54" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="3PIN_SIDE" urn="urn:adsk.eagle:component:38473901/2" prefix="CON" uservalue="yes" library_version="6">
@@ -15327,6 +15376,25 @@ Mors</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:38473898/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2PIN_SIDE" urn="urn:adsk.eagle:component:38473902/3" prefix="CON" uservalue="yes" library_version="6">
+<gates>
+<gate name="G$1" symbol="2PIN_SIDE" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="2PIN_SIDE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38473899/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -15377,6 +15445,10 @@ Mors</description>
 <part name="SV2" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="3PIN_SIDE" device="" package3d_urn="urn:adsk.eagle:package:38473898/3"/>
 <part name="SV3" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="3PIN_SIDE" device="" package3d_urn="urn:adsk.eagle:package:38473898/3"/>
 <part name="SV4" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="3PIN_SIDE" device="" package3d_urn="urn:adsk.eagle:package:38473898/3"/>
+<part name="POW" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="2PIN_SIDE" device="" package3d_urn="urn:adsk.eagle:package:38473899/4"/>
+<part name="POW1" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="2PIN_SIDE" device="" package3d_urn="urn:adsk.eagle:package:38473899/4"/>
+<part name="POW2" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="2PIN_SIDE" device="" package3d_urn="urn:adsk.eagle:package:38473899/4"/>
+<part name="POW3" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="2PIN_SIDE" device="" package3d_urn="urn:adsk.eagle:package:38473899/4"/>
 </parts>
 <sheets>
 <sheet>
@@ -15485,6 +15557,18 @@ Mors</description>
 </instance>
 <instance part="SV4" gate="G$1" x="60.96" y="-5.08" smashed="yes">
 <attribute name="NAME" x="66.04" y="-7.62" size="1.27" layer="95"/>
+</instance>
+<instance part="POW" gate="G$1" x="25.4" y="73.66" smashed="yes">
+<attribute name="NAME" x="27.94" y="71.12" size="1.27" layer="95"/>
+</instance>
+<instance part="POW1" gate="G$1" x="25.4" y="48.26" smashed="yes">
+<attribute name="NAME" x="27.94" y="45.72" size="1.27" layer="95"/>
+</instance>
+<instance part="POW2" gate="G$1" x="25.4" y="17.78" smashed="yes">
+<attribute name="NAME" x="27.94" y="15.24" size="1.27" layer="95"/>
+</instance>
+<instance part="POW3" gate="G$1" x="25.4" y="-10.16" smashed="yes">
+<attribute name="NAME" x="27.94" y="-12.7" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
