@@ -1150,14 +1150,14 @@ by exp-lbrs.ulp</description>
 <library name="MCP2562">
 <packages>
 <package name="MCP2562">
-<pad name="RXD" x="0" y="1.27" drill="1" shape="square"/>
-<pad name="VDD" x="0" y="3.81" drill="1" shape="square"/>
-<pad name="VSS" x="0" y="6.35" drill="1" shape="square"/>
-<pad name="TXD" x="0" y="8.89" drill="1" shape="square"/>
-<pad name="VIO" x="8.255" y="1.27" drill="1" shape="square"/>
-<pad name="CANL" x="8.255" y="3.81" drill="1" shape="square"/>
-<pad name="CANH" x="8.255" y="6.35" drill="1" shape="square"/>
-<pad name="STBY" x="8.255" y="8.89" drill="1" shape="square"/>
+<pad name="RXD" x="0" y="1.27" drill="0.8" shape="square"/>
+<pad name="VDD" x="0" y="3.81" drill="0.8" shape="square"/>
+<pad name="VSS" x="0" y="6.35" drill="0.8" shape="square"/>
+<pad name="TXD" x="0" y="8.89" drill="0.8" shape="square"/>
+<pad name="VIO" x="8.255" y="1.27" drill="0.8" shape="square"/>
+<pad name="CANL" x="8.255" y="3.81" drill="0.8" shape="square"/>
+<pad name="CANH" x="8.255" y="6.35" drill="0.8" shape="square"/>
+<pad name="STBY" x="8.255" y="8.89" drill="0.8" shape="square"/>
 <wire x1="-1.27" y1="10.16" x2="9.525" y2="10.16" width="0.127" layer="21"/>
 <wire x1="9.525" y1="10.16" x2="9.525" y2="0" width="0.127" layer="21"/>
 <wire x1="9.525" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
@@ -1229,24 +1229,24 @@ by exp-lbrs.ulp</description>
 <library name="MCP2515">
 <packages>
 <package name="MCP2515">
-<pad name="CLKOUT" x="-4.7" y="5.08" drill="0.6" shape="square"/>
-<pad name="TX0RTS" x="-4.7" y="2.54" drill="0.6" shape="square"/>
-<pad name="RXCAN" x="-4.7" y="7.62" drill="0.6" shape="square" rot="R90"/>
-<pad name="TX1RTS" x="-4.7" y="0" drill="0.6" shape="square"/>
-<pad name="SCK" x="4.7" y="-2.54" drill="0.6" shape="square"/>
-<pad name="TX2RTS" x="-4.7" y="-2.54" drill="0.6" shape="square"/>
-<pad name="OSC2" x="-4.7" y="-5.08" drill="0.6" shape="square"/>
-<pad name="OSC1" x="-4.7" y="-7.62" drill="0.6" shape="square"/>
-<pad name="VSS" x="-4.7" y="-10.16" drill="0.6" shape="square"/>
-<pad name="RESET" x="4.7" y="7.62" drill="0.6" shape="square"/>
-<pad name="RX1BF" x="4.7" y="-10.16" drill="0.6" shape="square"/>
-<pad name="RX0BF" x="4.7" y="-7.62" drill="0.6" shape="square"/>
-<pad name="INT" x="4.7" y="-5.08" drill="0.6" shape="square"/>
-<pad name="TXCAN" x="-4.7" y="10.16" drill="0.6" shape="square"/>
-<pad name="SI" x="4.7" y="0" drill="0.6" shape="square"/>
-<pad name="SO" x="4.7" y="2.54" drill="0.6" shape="square"/>
-<pad name="CS" x="4.7" y="5.08" drill="0.6" shape="square"/>
-<pad name="VDD" x="4.7" y="10.16" drill="0.6" shape="square"/>
+<pad name="CLKOUT" x="-4.7" y="5.08" drill="0.8" shape="square"/>
+<pad name="TX0RTS" x="-4.7" y="2.54" drill="0.8" shape="square"/>
+<pad name="RXCAN" x="-4.7" y="7.62" drill="0.8" shape="square" rot="R90"/>
+<pad name="TX1RTS" x="-4.7" y="0" drill="0.8" shape="square"/>
+<pad name="SCK" x="4.7" y="-2.54" drill="0.8" shape="square"/>
+<pad name="TX2RTS" x="-4.7" y="-2.54" drill="0.8" shape="square"/>
+<pad name="OSC2" x="-4.7" y="-5.08" drill="0.8" shape="square"/>
+<pad name="OSC1" x="-4.7" y="-7.62" drill="0.8" shape="square"/>
+<pad name="VSS" x="-4.7" y="-10.16" drill="0.8" shape="square"/>
+<pad name="RESET" x="4.7" y="7.62" drill="0.8" shape="square"/>
+<pad name="RX1BF" x="4.7" y="-10.16" drill="0.8" shape="square"/>
+<pad name="RX0BF" x="4.7" y="-7.62" drill="0.8" shape="square"/>
+<pad name="INT" x="4.7" y="-5.08" drill="0.8" shape="square"/>
+<pad name="TXCAN" x="-4.7" y="10.16" drill="0.8" shape="square"/>
+<pad name="SI" x="4.7" y="0" drill="0.8" shape="square"/>
+<pad name="SO" x="4.7" y="2.54" drill="0.8" shape="square"/>
+<pad name="CS" x="4.7" y="5.08" drill="0.8" shape="square"/>
+<pad name="VDD" x="4.7" y="10.16" drill="0.8" shape="square"/>
 <wire x1="-6.35" y1="11.43" x2="-6.35" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="-11.43" x2="-1.27" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-11.43" x2="1.27" y2="-11.43" width="0.127" layer="21"/>
@@ -15015,32 +15015,32 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="1.1" y1="17.63" x2="-1.1" y2="17.63" width="0.127" layer="21" curve="-180"/>
 <wire x1="13.9" y1="-17.37" x2="13.9" y2="-15.17" width="0.127" layer="21" curve="-180"/>
 <wire x1="-13.9" y1="-15.17" x2="-13.9" y2="-17.37" width="0.127" layer="21" curve="-180"/>
-<pad name="IO25" x="-8" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO23" x="-6.73" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO21" x="-5.46" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO19" x="-4.19" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO17" x="-2.92" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO15" x="-1.65" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO13" x="-0.38" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO11" x="0.89" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO9" x="2.16" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO7" x="3.43" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO5" x="4.7" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO3" x="5.97" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO1" x="7.24" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO2" x="7.24" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO4" x="5.97" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO6" x="4.7" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO8" x="3.43" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO10" x="2.16" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO12" x="0.89" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO14" x="-0.38" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO16" x="-1.65" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO18" x="-2.92" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO20" x="-4.19" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO22" x="-5.46" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO24" x="-6.73" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO26" x="-8" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
+<pad name="IO25" x="-8" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO23" x="-6.73" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO21" x="-5.46" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO19" x="-4.19" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO17" x="-2.92" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO15" x="-1.65" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO13" x="-0.38" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO11" x="0.89" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO9" x="2.16" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO7" x="3.43" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO5" x="4.7" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO3" x="5.97" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO1" x="7.24" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO2" x="7.24" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO4" x="5.97" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO6" x="4.7" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO8" x="3.43" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO10" x="2.16" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO12" x="0.89" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO14" x="-0.38" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO16" x="-1.65" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO18" x="-2.92" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO20" x="-4.19" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO22" x="-5.46" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO24" x="-6.73" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO26" x="-8" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
 <text x="-14" y="16.73" size="1.27" layer="25">&gt;NAME</text>
 <text x="-14" y="14.73" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-14" y="-16.27" drill="2.2"/>
@@ -17402,8 +17402,7 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="B1" library="ArduinoMega" deviceset="ARDUINO_ARDUINO_MEGA_R3" device="FULL" override_package3d_urn="urn:adsk.eagle:package:38784594/2" override_package_urn="urn:adsk.eagle:footprint:38784595/1"/>
-<part name="U$1" library="MCP2562" deviceset="MCP2562" device="" override_package3d_urn="urn:adsk.eagle:package:38785330/2" override_package_urn="urn:adsk.eagle:footprint:38785331/1"/>
-<part name="MCP1" library="MCP2515" deviceset="MCP2515" device="" override_package3d_urn="urn:adsk.eagle:package:38784723/2" override_package_urn="urn:adsk.eagle:footprint:38784724/1"/>
+<part name="U$1" library="MCP2562" deviceset="MCP2562" device="" override_package3d_urn="urn:adsk.eagle:package:38785330/2" override_package_urn="urn:adsk.eagle:footprint:38785331/1" override_locally_modified="yes"/>
 <part name="U$2" library="Module" deviceset="MD13S" device="" override_package3d_urn="urn:adsk.eagle:package:38784770/2" override_package_urn="urn:adsk.eagle:footprint:38784774/1"/>
 <part name="U$3" library="HUSG20" deviceset="HUSG20" device="" override_package3d_urn="urn:adsk.eagle:package:38791805/2" override_package_urn="urn:adsk.eagle:footprint:38791806/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
@@ -17417,7 +17416,7 @@ Source: www.kingbright.com</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="IM1" library="IM920" deviceset="IM920C" device="" override_package3d_urn="urn:adsk.eagle:package:38786354/2" override_package_urn="urn:adsk.eagle:footprint:38786355/1"/>
-<part name="IM2" library="IM920" deviceset="IM920" device="IM920_BOARD" override_package3d_urn="urn:adsk.eagle:package:38786734/2" override_package_urn="urn:adsk.eagle:footprint:38786772/1"/>
+<part name="IM2" library="IM920" deviceset="IM920" device="IM920_BOARD" override_package3d_urn="urn:adsk.eagle:package:38786734/2" override_package_urn="urn:adsk.eagle:footprint:38786772/1" override_locally_modified="yes"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
@@ -17465,6 +17464,7 @@ Source: www.kingbright.com</description>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" override_package3d_urn="urn:adsk.eagle:package:38791623/2" override_package_urn="urn:adsk.eagle:footprint:15654/1"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="MCP2" library="MCP2515" deviceset="MCP2515" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17476,7 +17476,6 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="83.82" y="-27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="195.58" y="71.12" smashed="yes"/>
-<instance part="MCP1" gate="G$1" x="200.66" y="111.76" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="15.24" y="68.58" smashed="yes">
 <attribute name="MPN" x="5.08" y="76.962" size="1.778" layer="96"/>
 <attribute name="NAME" x="5.08" y="79.502" size="1.778" layer="95"/>
@@ -17672,24 +17671,24 @@ Source: www.kingbright.com</description>
 <instance part="GND3" gate="1" x="294.64" y="-17.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="297.18" y="-20.32" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="MCP2" gate="G$1" x="200.66" y="111.76" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="OSC2"/>
 <pinref part="U$3" gate="G$1" pin="A"/>
 <wire x1="187.96" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <junction x="165.1" y="99.06"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="99.06" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="MCP2" gate="G$1" pin="OSC2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="OSC1"/>
 <wire x1="187.96" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="96.52" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="B"/>
@@ -17698,24 +17697,25 @@ Source: www.kingbright.com</description>
 <wire x1="165.1" y1="81.28" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
 <junction x="165.1" y="81.28"/>
 <wire x1="165.1" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="MCP2" gate="G$1" pin="OSC1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="TXD"/>
 <wire x1="187.96" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="MCP1" gate="G$1" pin="TXCAN"/>
 <wire x1="180.34" y1="81.28" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="MCP2" gate="G$1" pin="TXCAN"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="RXCAN"/>
 <wire x1="187.96" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RXD"/>
 <wire x1="182.88" y1="111.76" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="MCP2" gate="G$1" pin="RXCAN"/>
 </segment>
 </net>
 <net name="V-" class="0">
@@ -17729,10 +17729,10 @@ Source: www.kingbright.com</description>
 <wire x1="147.32" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="VSS"/>
 <pinref part="P-2" gate="1" pin="GND"/>
 <wire x1="187.96" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="93.98" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="MCP2" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -17863,7 +17863,6 @@ Source: www.kingbright.com</description>
 <pinref part="P+10" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="VDD"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="111.76" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
@@ -17871,13 +17870,14 @@ Source: www.kingbright.com</description>
 <wire x1="223.52" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="127" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <junction x="223.52" y="114.3"/>
+<pinref part="MCP2" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="SS" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="CS"/>
 <wire x1="218.44" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <label x="226.06" y="106.68" size="1.778" layer="95" xref="yes"/>
+<pinref part="MCP2" gate="G$1" pin="CS"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="53"/>
@@ -17887,9 +17887,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="SI"/>
 <wire x1="218.44" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <label x="226.06" y="104.14" size="1.778" layer="95" xref="yes"/>
+<pinref part="MCP2" gate="G$1" pin="SI"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="51"/>
@@ -17899,9 +17899,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="SCK"/>
 <wire x1="218.44" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
 <label x="226.06" y="101.6" size="1.778" layer="95" xref="yes"/>
+<pinref part="MCP2" gate="G$1" pin="SCK"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="52"/>
@@ -17911,9 +17911,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="SO"/>
 <wire x1="218.44" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
 <label x="226.06" y="109.22" size="1.778" layer="95" xref="yes"/>
+<pinref part="MCP2" gate="G$1" pin="SO"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="50"/>
@@ -17923,9 +17923,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="RESET"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="MCP2" gate="G$1" pin="RESET"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -18258,9 +18258,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="CAN_INT" class="0">
 <segment>
-<pinref part="MCP1" gate="G$1" pin="INT"/>
 <wire x1="218.44" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 <label x="226.06" y="99.06" size="1.778" layer="95" xref="yes"/>
+<pinref part="MCP2" gate="G$1" pin="INT"/>
 </segment>
 </net>
 </nets>
