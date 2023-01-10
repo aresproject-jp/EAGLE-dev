@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -76,10 +76,10 @@
 <package name="GY-BMP280-FOOTPRINT">
 <pad name="VCC" x="1.27" y="0" drill="0.6"/>
 <pad name="GND" x="3.81" y="0" drill="0.6"/>
-<pad name="SCK" x="6.35" y="0" drill="0.6"/>
+<pad name="CSB" x="6.35" y="0" drill="0.6"/>
 <pad name="SDI" x="8.89" y="0" drill="0.6"/>
-<pad name="CSB" x="11.43" y="0" drill="0.6"/>
-<pad name="SDO" x="13.97" y="0" drill="0.6"/>
+<pad name="SDO" x="11.43" y="0" drill="0.6"/>
+<pad name="SCK" x="13.97" y="0" drill="0.6"/>
 <hole x="1.27" y="7.62" drill="0.35"/>
 <wire x1="0" y1="-1.27" x2="15.24" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="15.24" y1="-1.27" x2="15.24" y2="8.89" width="0.127" layer="21"/>
@@ -97,10 +97,10 @@
 <wire x1="-17.78" y1="12.7" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
 <pin name="VCC" x="-12.7" y="-15.24" length="middle" rot="R90"/>
 <pin name="GND" x="-7.62" y="-15.24" length="middle" rot="R90"/>
-<pin name="SCK" x="-2.54" y="-15.24" length="middle" rot="R90"/>
+<pin name="CSB" x="-2.54" y="-15.24" length="middle" rot="R90"/>
 <pin name="SDI" x="2.54" y="-15.24" length="middle" rot="R90"/>
-<pin name="CSB" x="7.62" y="-15.24" length="middle" rot="R90"/>
-<pin name="SDO" x="12.7" y="-15.24" length="middle" rot="R90"/>
+<pin name="SDO" x="7.62" y="-15.24" length="middle" rot="R90"/>
+<pin name="SCK" x="12.7" y="-15.24" length="middle" rot="R90"/>
 <text x="-7.62" y="7.62" size="2.54" layer="94">GY-BMP</text>
 <text x="-5.08" y="5.08" size="2.54" layer="94">E/P</text>
 <text x="-5.08" y="2.54" size="2.1844" layer="94">280</text>

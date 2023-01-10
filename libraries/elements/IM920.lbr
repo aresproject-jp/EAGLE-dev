@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -204,32 +204,32 @@
 <wire x1="1.1" y1="17.63" x2="-1.1" y2="17.63" width="0.127" layer="21" curve="-180"/>
 <wire x1="13.9" y1="-17.37" x2="13.9" y2="-15.17" width="0.127" layer="21" curve="-180"/>
 <wire x1="-13.9" y1="-15.17" x2="-13.9" y2="-17.37" width="0.127" layer="21" curve="-180"/>
-<pad name="IO25" x="-8" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO23" x="-6.73" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO21" x="-5.46" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO19" x="-4.19" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO17" x="-2.92" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO15" x="-1.65" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO13" x="-0.38" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO11" x="0.89" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO9" x="2.16" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO7" x="3.43" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO5" x="4.7" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO3" x="5.97" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO1" x="7.24" y="-17.27" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO2" x="7.24" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO4" x="5.97" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO6" x="4.7" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO8" x="3.43" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO10" x="2.16" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO12" x="0.89" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO14" x="-0.38" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO16" x="-1.65" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO18" x="-2.92" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO20" x="-4.19" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO22" x="-5.46" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO24" x="-6.73" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
-<pad name="IO26" x="-8" y="-16" drill="0.65" diameter="0.8128" shape="square"/>
+<pad name="IO25" x="-8" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO23" x="-6.73" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO21" x="-5.46" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO19" x="-4.19" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO17" x="-2.92" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO15" x="-1.65" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO13" x="-0.38" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO11" x="0.89" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO9" x="2.16" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO7" x="3.43" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO5" x="4.7" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO3" x="5.97" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO1" x="7.24" y="-17.27" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO2" x="7.24" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO4" x="5.97" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO6" x="4.7" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO8" x="3.43" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO10" x="2.16" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO12" x="0.89" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO14" x="-0.38" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO16" x="-1.65" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO18" x="-2.92" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO20" x="-4.19" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO22" x="-5.46" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO24" x="-6.73" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
+<pad name="IO26" x="-8" y="-16" drill="0.8" diameter="0.8128" shape="square"/>
 <text x="-14" y="16.73" size="1.27" layer="25">&gt;NAME</text>
 <text x="-14" y="14.73" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-14" y="-16.27" drill="2.2"/>
