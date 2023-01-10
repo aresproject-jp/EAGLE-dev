@@ -6,23 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -52,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -73,55 +59,54 @@
 </layers>
 <library>
 <packages>
-<package name="BNO055">
-<pad name="1_VIN" x="6.35" y="1.27" drill="0.8"/>
-<pad name="2_GND" x="8.89" y="1.27" drill="0.8"/>
-<pad name="3_SDA/T" x="11.43" y="1.27" drill="0.8"/>
-<pad name="4_SCL/R" x="13.97" y="1.27" drill="0.8"/>
-<pad name="5_RESET" x="13.97" y="8.89" drill="0.8"/>
-<pad name="6_INT" x="11.43" y="8.89" drill="0.8"/>
-<pad name="7_GND" x="8.89" y="8.89" drill="0.8"/>
-<wire x1="0" y1="-1.27" x2="20.32" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="20.32" y1="-1.27" x2="20.32" y2="11.43" width="0.127" layer="21"/>
-<wire x1="20.32" y1="11.43" x2="0" y2="11.43" width="0.127" layer="21"/>
-<wire x1="0" y1="11.43" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<pad name="8_VOUT" x="6.35" y="8.89" drill="0.8"/>
-<text x="19.05" y="1.27" size="1.27" layer="25" rot="R90">BNO055</text>
+<package name="GROVE_GPS">
+<wire x1="0" y1="-2.54" x2="-43.18" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-43.18" y1="-2.54" x2="-43.18" y2="22.86" width="0.127" layer="21"/>
+<wire x1="-43.18" y1="22.86" x2="0" y2="22.86" width="0.127" layer="21"/>
+<wire x1="0" y1="22.86" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<pad name="GND" x="-2.54" y="2.54" drill="0.6" shape="square"/>
+<pad name="VCC" x="-2.54" y="7.62" drill="0.6" shape="square"/>
+<pad name="RX" x="-2.54" y="12.7" drill="0.6" shape="square"/>
+<pad name="TX" x="-2.54" y="17.78" drill="0.6" shape="square"/>
+<hole x="-10.16" y="20.32" drill="2"/>
+<hole x="-10.16" y="0" drill="2"/>
+<hole x="-40.64" y="10.16" drill="2"/>
 </package>
 </packages>
 <symbols>
-<symbol name="BNO055">
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="12.7" width="0.254" layer="94"/>
-<wire x1="20.32" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="1" x="6.35" y="-3.81" length="middle" rot="R90"/>
-<pin name="2" x="8.89" y="-3.81" length="middle" rot="R90"/>
-<pin name="3" x="11.43" y="-3.81" length="middle" rot="R90"/>
-<pin name="4" x="13.97" y="-3.81" length="middle" rot="R90"/>
-<pin name="5" x="13.97" y="16.51" length="middle" rot="R270"/>
-<pin name="6" x="11.43" y="16.51" length="middle" rot="R270"/>
-<pin name="7" x="8.89" y="16.51" length="middle" rot="R270"/>
-<pin name="8" x="6.35" y="16.51" length="middle" rot="R270"/>
-<text x="22.86" y="0" size="1.778" layer="95" rot="R90">BNO055</text>
+<symbol name="GROVE_GPS">
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<pin name="TX" x="-12.7" y="-2.54" length="middle"/>
+<pin name="RX" x="-12.7" y="-7.62" length="middle"/>
+<pin name="VCC" x="-12.7" y="-12.7" length="middle"/>
+<pin name="GND" x="-12.7" y="-17.78" length="middle"/>
+<text x="0" y="0" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BNO055">
+<deviceset name="GROVE_GPS">
 <gates>
-<gate name="G$1" symbol="BNO055" x="-10.16" y="-7.62"/>
+<gate name="G$1" symbol="GROVE_GPS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BNO055">
+<device name="" package="GROVE_GPS">
 <connects>
-<connect gate="G$1" pin="1" pad="1_VIN"/>
-<connect gate="G$1" pin="2" pad="2_GND"/>
-<connect gate="G$1" pin="3" pad="3_SDA/T"/>
-<connect gate="G$1" pin="4" pad="4_SCL/R"/>
-<connect gate="G$1" pin="5" pad="5_RESET"/>
-<connect gate="G$1" pin="6" pad="6_INT"/>
-<connect gate="G$1" pin="7" pad="7_GND"/>
-<connect gate="G$1" pin="8" pad="8_VOUT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
