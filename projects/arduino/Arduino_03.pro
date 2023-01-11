@@ -1,27 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/fuka/Documents/EAGLE/projects/New_Project/Arduino.brd
+Job           : C:/Users/zakis/OneDrive/Documents/GitHub/EAGLE-dev/projects/arduino/arduino.brd
 
-Start at      : 21:56:06 (2023/01/10)
-End at        : 21:56:30 (2023/01/10)
-Elapsed time  : 00:00:22
+Start at      : 22:05:58 (10/01/2023)
+End at        : 22:06:09 (10/01/2023)
+Elapsed time  : 00:00:07
 
-Signals       :    43   RoutingGrid: 4.92126 mil  Layers: 2
+Signals       :    43   RoutingGrid: 19.685 mil  Layers: 2
 Connections   :    69   predefined:  0 ( 0 Vias )
 
-Router memory :   30850556
+Router memory :   1959376
 
-Job has been interrupted!
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Passname          :    Busses     Route Optimize1 Optimize2
+Time per pass     :  00:00:03  00:00:01  00:00:01  00:00:01  00:00:01
+Number of Ripups  :         0         0         0         0         0
+max. Level        :         1         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Time per pass     :  00:00:00  00:00:08  00:00:07  00:00:07
-Number of Ripups  :         0         0         0         0
-max. Level        :         0         1         0         0
-max. Total        :         0         0         0         0
-
-Routed            :        10        61        61        61
-Vias              :         0       124        40        18
-Resolution        :    14.5 %    88.4 %    88.4 %    88.4 %
+Routed            :        65        65        65        65        65
+Vias              :        34        11        12        12        12
+Resolution        :    94.2 %    94.2 %    94.2 %    94.2 %    94.2 %
 
 Final             : 
