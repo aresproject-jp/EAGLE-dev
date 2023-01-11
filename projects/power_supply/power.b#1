@@ -1279,7 +1279,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="1.4986" drill="0">
+</class>
+<class number="1" name="power" width="14.986" drill="0">
+</class>
+<class number="2" name="New Class" width="0" drill="0">
 </class>
 </classes>
 <designrules name="default *">
@@ -1753,22 +1757,27 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="GATE"/>
 <contactref element="SW6" pad="L"/>
 <contactref element="R19" pad="1"/>
+<wire x1="25.2192" y1="66.2004" x2="25.2192" y2="66.9885" width="3" layer="16"/>
+<wire x1="29.9478" y1="61.4718" x2="25.2192" y2="66.2004" width="3" layer="16"/>
+<wire x1="55.9551" y1="61.4718" x2="29.9478" y2="61.4718" width="3" layer="16"/>
+<wire x1="75.6576" y1="41.7693" x2="55.9551" y2="61.4718" width="3" layer="16"/>
+<wire x1="25.2192" y1="66.9885" x2="25.4" y2="67.31" width="3" layer="16"/>
+<wire x1="75.6576" y1="41.7693" x2="76.24" y2="41.91" width="3" layer="16"/>
 <wire x1="76.24" y1="41.91" x2="132.5" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="67.31" x2="76.24" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MA">
+<signal name="MA" class="1">
 <contactref element="U$3" pad="SOURCE"/>
 <contactref element="U$4" pad="SOURCE"/>
 <contactref element="R19" pad="2"/>
 <wire x1="30.48" y1="67.31" x2="134.2" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="30.48" y1="78.74" x2="30.48" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="18V">
+<signal name="18V" class="1">
 <contactref element="U$3" pad="DRAIN"/>
 <contactref element="JETSON-IN" pad="P$2"/>
 <wire x1="9.54" y1="90" x2="27.94" y2="78.74" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAC">
+<signal name="MAC" class="1">
 <contactref element="U$4" pad="DRAIN"/>
 <contactref element="L7" pad="AN"/>
 <contactref element="JETSON-OUT" pad="P$1"/>
@@ -1785,7 +1794,7 @@ design rules under a new name.</description>
 <contactref element="R20" pad="1"/>
 <wire x1="119.8" y1="53.34" x2="126.15" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IN">
+<signal name="IN" class="1">
 <contactref element="U$3" pad="GATE"/>
 <contactref element="R20" pad="2"/>
 <contactref element="JETSON-OUT" pad="P$2"/>
@@ -1856,22 +1865,27 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="GATE"/>
 <contactref element="SW1" pad="L"/>
 <contactref element="R1" pad="1"/>
+<wire x1="4.7286" y1="66.9885" x2="4.7286" y2="68.5647" width="3" layer="1"/>
+<wire x1="31.524" y1="40.1931" x2="4.7286" y2="66.9885" width="3" layer="1"/>
+<wire x1="43.3455" y1="40.1931" x2="31.524" y2="40.1931" width="3" layer="1"/>
+<wire x1="75.6576" y1="7.881" x2="43.3455" y2="40.1931" width="3" layer="1"/>
+<wire x1="4.7286" y1="68.5647" x2="5.08" y2="68.58" width="3" layer="1"/>
+<wire x1="75.6576" y1="7.881" x2="76.24" y2="7.62" width="3" layer="1"/>
 <wire x1="76.24" y1="7.62" x2="119.8" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="68.58" x2="76.24" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MKK">
+<signal name="MKK" class="1">
 <contactref element="U$1" pad="SOURCE"/>
 <contactref element="U$5" pad="SOURCE"/>
 <contactref element="R1" pad="2"/>
 <wire x1="10.16" y1="68.58" x2="121.5" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="80.01" x2="10.16" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MBB">
+<signal name="MBB" class="1">
 <contactref element="U$1" pad="DRAIN"/>
 <contactref element="ARDUINO-IN" pad="P$2"/>
 <wire x1="7.62" y1="80.01" x2="69.54" y2="90" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MOO">
+<signal name="MOO" class="1">
 <contactref element="U$5" pad="DRAIN"/>
 <contactref element="L1" pad="AN"/>
 <contactref element="ARDUINO-OUT" pad="P$1"/>
@@ -1892,17 +1906,22 @@ design rules under a new name.</description>
 <contactref element="U$8" pad="GATE"/>
 <contactref element="SW2" pad="L"/>
 <contactref element="R5" pad="1"/>
+<wire x1="45.7098" y1="56.7432" x2="45.7098" y2="66.9885" width="3" layer="1"/>
+<wire x1="61.4718" y1="40.9812" x2="45.7098" y2="56.7432" width="3" layer="1"/>
+<wire x1="61.4718" y1="28.3716" x2="61.4718" y2="40.9812" width="3" layer="1"/>
+<wire x1="75.6576" y1="14.1858" x2="61.4718" y2="28.3716" width="3" layer="1"/>
+<wire x1="45.7098" y1="66.9885" x2="45.72" y2="67.31" width="3" layer="1"/>
+<wire x1="75.6576" y1="14.1858" x2="76.24" y2="13.97" width="3" layer="1"/>
 <wire x1="76.24" y1="13.97" x2="119.8" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="45.72" y1="67.31" x2="76.24" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MS">
+<signal name="MS" class="1">
 <contactref element="U$7" pad="SOURCE"/>
 <contactref element="U$8" pad="SOURCE"/>
 <contactref element="R5" pad="2"/>
 <wire x1="50.8" y1="67.31" x2="121.5" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="50.8" y1="78.74" x2="50.8" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MU">
+<signal name="MU" class="1">
 <contactref element="U$7" pad="DRAIN"/>
 <contactref element="MOTOR-FR-IN" pad="P$2"/>
 <wire x1="30.65" y1="90" x2="48.26" y2="78.74" width="0" layer="19" extent="1-1"/>
@@ -1928,22 +1947,25 @@ design rules under a new name.</description>
 <contactref element="U$11" pad="GATE"/>
 <contactref element="SW3" pad="L"/>
 <contactref element="R9" pad="1"/>
+<wire x1="64.6242" y1="31.524" x2="64.6242" y2="66.9885" width="3" layer="1"/>
+<wire x1="75.6576" y1="20.4906" x2="64.6242" y2="31.524" width="3" layer="1"/>
+<wire x1="64.6242" y1="66.9885" x2="64.77" y2="67.31" width="3" layer="1"/>
+<wire x1="75.6576" y1="20.4906" x2="76.24" y2="20.32" width="3" layer="1"/>
 <wire x1="76.24" y1="20.32" x2="119.8" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="64.77" y1="67.31" x2="76.24" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MH">
+<signal name="MH" class="1">
 <contactref element="U$10" pad="SOURCE"/>
 <contactref element="U$11" pad="SOURCE"/>
 <contactref element="R9" pad="2"/>
 <wire x1="69.85" y1="67.31" x2="69.85" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="121.5" y1="24.13" x2="69.85" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MY">
+<signal name="MY" class="1">
 <contactref element="U$10" pad="DRAIN"/>
 <contactref element="MOTOR-FL-IN" pad="P$2"/>
 <wire x1="50.8" y1="90.1" x2="67.31" y2="78.74" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MV">
+<signal name="MV" class="1">
 <contactref element="U$11" pad="DRAIN"/>
 <contactref element="L3" pad="AN"/>
 <contactref element="MOTOR-FL-OUT" pad="P$1"/>
@@ -1964,22 +1986,27 @@ design rules under a new name.</description>
 <contactref element="U$14" pad="GATE"/>
 <contactref element="SW4" pad="L"/>
 <contactref element="R13" pad="1"/>
-<wire x1="76.24" y1="26.67" x2="86.36" y2="67.31" width="0" layer="19" extent="1-1"/>
-<wire x1="119.8" y1="30.48" x2="76.24" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="83.5386" y1="66.9885" x2="85.9029" y2="66.9885" width="3" layer="1"/>
+<wire x1="71.7171" y1="55.167" x2="83.5386" y2="66.9885" width="3" layer="1"/>
+<wire x1="71.7171" y1="30.7359" x2="71.7171" y2="55.167" width="3" layer="1"/>
+<wire x1="75.6576" y1="26.7954" x2="71.7171" y2="30.7359" width="3" layer="1"/>
+<wire x1="85.9029" y1="66.9885" x2="86.36" y2="67.31" width="3" layer="1"/>
+<wire x1="75.6576" y1="26.7954" x2="76.24" y2="26.67" width="3" layer="1"/>
+<wire x1="76.24" y1="26.67" x2="119.8" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MBV">
+<signal name="MBV" class="1">
 <contactref element="U$13" pad="SOURCE"/>
 <contactref element="U$14" pad="SOURCE"/>
 <contactref element="R13" pad="2"/>
 <wire x1="91.44" y1="67.31" x2="91.44" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="121.5" y1="30.48" x2="91.44" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MX">
+<signal name="MX" class="1">
 <contactref element="U$13" pad="DRAIN"/>
 <contactref element="MOTOR-RR-IN" pad="P$2"/>
 <wire x1="88.9" y1="78.74" x2="90.17" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MHH">
+<signal name="MHH" class="1">
 <contactref element="U$14" pad="DRAIN"/>
 <contactref element="L4" pad="AN"/>
 <contactref element="MOTOR-RR-OUT" pad="P$1"/>
@@ -2000,22 +2027,27 @@ design rules under a new name.</description>
 <contactref element="U$17" pad="GATE"/>
 <contactref element="SW5" pad="L"/>
 <contactref element="R17" pad="1"/>
-<wire x1="119.8" y1="36.83" x2="109.22" y2="67.31" width="0" layer="19" extent="1-1"/>
-<wire x1="76.24" y1="34.29" x2="119.8" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="108.7578" y1="65.4123" x2="108.7578" y2="66.9885" width="3" layer="1"/>
+<wire x1="80.3862" y1="37.0407" x2="108.7578" y2="65.4123" width="3" layer="1"/>
+<wire x1="78.0219" y1="37.0407" x2="80.3862" y2="37.0407" width="3" layer="1"/>
+<wire x1="75.6576" y1="34.6764" x2="78.0219" y2="37.0407" width="3" layer="1"/>
+<wire x1="108.7578" y1="66.9885" x2="109.22" y2="67.31" width="3" layer="1"/>
+<wire x1="75.6576" y1="34.6764" x2="76.24" y2="34.29" width="3" layer="1"/>
+<wire x1="109.22" y1="67.31" x2="119.8" y2="36.83" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MCX">
+<signal name="MCX" class="1">
 <contactref element="U$16" pad="SOURCE"/>
 <contactref element="U$17" pad="SOURCE"/>
 <contactref element="R17" pad="2"/>
 <wire x1="114.3" y1="67.31" x2="114.3" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="121.5" y1="36.83" x2="114.3" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MN">
+<signal name="MN" class="1">
 <contactref element="U$16" pad="DRAIN"/>
 <contactref element="MOTOR-RL-IN" pad="P$2"/>
 <wire x1="111.76" y1="78.74" x2="113.03" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MZZ">
+<signal name="MZZ" class="1">
 <contactref element="U$17" pad="DRAIN"/>
 <contactref element="L5" pad="AN"/>
 <contactref element="MOTOR-RL-OUT" pad="P$1"/>
@@ -2036,22 +2068,30 @@ design rules under a new name.</description>
 <contactref element="U$21" pad="GATE"/>
 <contactref element="SW7" pad="L"/>
 <contactref element="R24" pad="1"/>
-<wire x1="119.8" y1="43.18" x2="132.08" y2="67.31" width="0" layer="19" extent="1-1"/>
-<wire x1="76.24" y1="49.53" x2="119.8" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="118.215" y1="67.7766" x2="131.6127" y2="67.7766" width="3" layer="1"/>
+<wire x1="115.0626" y1="70.929" x2="118.215" y2="67.7766" width="3" layer="1"/>
+<wire x1="100.0887" y1="70.929" x2="115.0626" y2="70.929" width="3" layer="1"/>
+<wire x1="81.1743" y1="52.0146" x2="100.0887" y2="70.929" width="3" layer="1"/>
+<wire x1="77.2338" y1="52.0146" x2="81.1743" y2="52.0146" width="3" layer="1"/>
+<wire x1="75.6576" y1="50.4384" x2="77.2338" y2="52.0146" width="3" layer="1"/>
+<wire x1="75.6576" y1="49.6503" x2="75.6576" y2="50.4384" width="3" layer="1"/>
+<wire x1="131.6127" y1="67.7766" x2="132.08" y2="67.31" width="3" layer="1"/>
+<wire x1="75.6576" y1="49.6503" x2="76.24" y2="49.53" width="3" layer="1"/>
+<wire x1="132.08" y1="67.31" x2="119.8" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MVVV">
+<signal name="MVVV" class="1">
 <contactref element="U$20" pad="SOURCE"/>
 <contactref element="U$21" pad="SOURCE"/>
 <contactref element="R24" pad="2"/>
 <wire x1="137.16" y1="67.31" x2="137.16" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="121.5" y1="43.18" x2="137.16" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MGG">
+<signal name="MGG" class="1">
 <contactref element="U$20" pad="DRAIN"/>
 <contactref element="ARM-IN" pad="P$2"/>
 <wire x1="134.62" y1="78.74" x2="135.89" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MHGF">
+<signal name="MHGF" class="1">
 <contactref element="U$21" pad="DRAIN"/>
 <contactref element="L6" pad="AN"/>
 <contactref element="ARM-OUT" pad="P$1"/>
@@ -2072,22 +2112,28 @@ design rules under a new name.</description>
 <contactref element="U$25" pad="GATE"/>
 <contactref element="SW8" pad="L"/>
 <contactref element="R29" pad="1"/>
-<wire x1="119.8" y1="48.26" x2="158.75" y2="68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="76.24" y1="55.88" x2="119.8" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="142.6461" y1="68.5647" x2="158.4081" y2="68.5647" width="3" layer="16"/>
+<wire x1="132.4008" y1="58.3194" x2="142.6461" y2="68.5647" width="3" layer="16"/>
+<wire x1="77.2338" y1="58.3194" x2="132.4008" y2="58.3194" width="3" layer="16"/>
+<wire x1="75.6576" y1="56.7432" x2="77.2338" y2="58.3194" width="3" layer="16"/>
+<wire x1="75.6576" y1="55.9551" x2="75.6576" y2="56.7432" width="3" layer="16"/>
+<wire x1="158.4081" y1="68.5647" x2="158.75" y2="68.58" width="3" layer="16"/>
+<wire x1="75.6576" y1="55.9551" x2="76.24" y2="55.88" width="3" layer="16"/>
+<wire x1="158.75" y1="68.58" x2="119.8" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MJUY">
+<signal name="MJUY" class="1">
 <contactref element="U$24" pad="SOURCE"/>
 <contactref element="U$25" pad="SOURCE"/>
 <contactref element="R29" pad="2"/>
 <wire x1="163.83" y1="68.58" x2="163.83" y2="80.01" width="0" layer="19" extent="1-1"/>
 <wire x1="121.5" y1="48.26" x2="163.83" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MDSDS">
+<signal name="MDSDS" class="1">
 <contactref element="U$24" pad="DRAIN"/>
 <contactref element="BIO-IN" pad="P$2"/>
 <wire x1="161.29" y1="80.01" x2="162.56" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MHHHH">
+<signal name="MHHHH" class="1">
 <contactref element="U$25" pad="DRAIN"/>
 <contactref element="L8" pad="AN"/>
 <contactref element="BIO-OUT" pad="P$1"/>
@@ -2104,7 +2150,7 @@ design rules under a new name.</description>
 <contactref element="R30" pad="1"/>
 <wire x1="126.15" y1="48.26" x2="132.5" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="OUT">
+<signal name="OUT" class="1">
 <contactref element="SW6" pad="LR"/>
 <contactref element="SW1" pad="LR"/>
 <contactref element="SW2" pad="LR"/>
@@ -2123,7 +2169,7 @@ design rules under a new name.</description>
 <wire x1="78.74" y1="7.62" x2="78.74" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="-3.81" x2="78.74" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="ML">
+<signal name="ML" class="1">
 <contactref element="ARDUINO-OUT2" pad="P$1"/>
 <contactref element="ARDUINO-OUT1" pad="P$1"/>
 <contactref element="ARDUINO-OUT3" pad="P$1"/>
@@ -2134,10 +2180,17 @@ design rules under a new name.</description>
 <contactref element="ARDUINO-OUT2" pad="P$2"/>
 <contactref element="ARDUINO-OUT1" pad="P$2"/>
 <contactref element="ARDUINO-OUT3" pad="P$2"/>
-<wire x1="194.31" y1="6.35" x2="194.31" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="158.75" y1="-3.81" x2="194.31" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="168.6534" y1="6.3048" x2="159.1962" y2="-3.1524" width="3" layer="1"/>
+<wire x1="193.8726" y1="6.3048" x2="191.5083" y2="6.3048" width="3" layer="1"/>
+<wire x1="191.5083" y1="6.3048" x2="168.6534" y2="6.3048" width="3" layer="1"/>
+<wire x1="159.1962" y1="-3.1524" x2="158.75" y2="-3.81" width="3" layer="1"/>
+<wire x1="193.8726" y1="6.3048" x2="194.31" y2="6.35" width="3" layer="1"/>
+<wire x1="193.8726" y1="15.762" x2="193.8726" y2="27.5835" width="3" layer="1"/>
+<wire x1="191.5083" y1="13.3977" x2="193.8726" y2="15.762" width="3" layer="1"/>
+<wire x1="191.5083" y1="6.3048" x2="191.5083" y2="13.3977" width="3" layer="1"/>
+<wire x1="193.8726" y1="27.5835" x2="194.31" y2="27.94" width="3" layer="1"/>
 </signal>
-<signal name="MAD">
+<signal name="MAD" class="1">
 <contactref element="JETSON-OUT1" pad="P$1"/>
 </signal>
 <signal name="N$18">

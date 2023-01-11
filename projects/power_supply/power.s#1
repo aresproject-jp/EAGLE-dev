@@ -4922,7 +4922,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="1.4986" drill="0">
+</class>
+<class number="1" name="power" width="14.986" drill="0">
+</class>
+<class number="2" name="New Class" width="0" drill="0">
 </class>
 </classes>
 <parts>
@@ -5261,7 +5265,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="53.34"/>
 </segment>
 </net>
-<net name="MA" class="0">
+<net name="MA" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="SOURCE"/>
 <pinref part="U$4" gate="G$1" pin="SOURCE"/>
@@ -5272,7 +5276,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="68.58"/>
 </segment>
 </net>
-<net name="18V" class="0">
+<net name="18V" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
@@ -5280,7 +5284,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="JETSON-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MAC" class="0">
+<net name="MAC" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
@@ -5309,7 +5313,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="129.54" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN" class="0">
+<net name="IN" class="1">
 <segment>
 <wire x1="111.76" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
@@ -5514,7 +5518,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="2.54"/>
 </segment>
 </net>
-<net name="MKK" class="0">
+<net name="MKK" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SOURCE"/>
 <pinref part="U$5" gate="G$1" pin="SOURCE"/>
@@ -5525,7 +5529,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="17.78"/>
 </segment>
 </net>
-<net name="MBB" class="0">
+<net name="MBB" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="20.32" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
@@ -5533,7 +5537,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="ARDUINO-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MOO" class="0">
+<net name="MOO" class="1">
 <segment>
 <pinref part="U$5" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
@@ -5575,7 +5579,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="-35.56"/>
 </segment>
 </net>
-<net name="MS" class="0">
+<net name="MS" class="1">
 <segment>
 <pinref part="U$7" gate="G$1" pin="SOURCE"/>
 <pinref part="U$8" gate="G$1" pin="SOURCE"/>
@@ -5586,7 +5590,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="-20.32"/>
 </segment>
 </net>
-<net name="MU" class="0">
+<net name="MU" class="1">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-17.78" x2="48.26" y2="-20.32" width="0.1524" layer="91"/>
@@ -5636,7 +5640,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="-73.66"/>
 </segment>
 </net>
-<net name="MH" class="0">
+<net name="MH" class="1">
 <segment>
 <pinref part="U$10" gate="G$1" pin="SOURCE"/>
 <pinref part="U$11" gate="G$1" pin="SOURCE"/>
@@ -5647,7 +5651,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="-58.42"/>
 </segment>
 </net>
-<net name="MY" class="0">
+<net name="MY" class="1">
 <segment>
 <pinref part="U$10" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-55.88" x2="48.26" y2="-58.42" width="0.1524" layer="91"/>
@@ -5655,7 +5659,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="MOTOR-FL-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MV" class="0">
+<net name="MV" class="1">
 <segment>
 <pinref part="U$11" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-58.42" x2="111.76" y2="-58.42" width="0.1524" layer="91"/>
@@ -5697,7 +5701,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="-111.76"/>
 </segment>
 </net>
-<net name="MBV" class="0">
+<net name="MBV" class="1">
 <segment>
 <pinref part="U$13" gate="G$1" pin="SOURCE"/>
 <pinref part="U$14" gate="G$1" pin="SOURCE"/>
@@ -5708,7 +5712,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="-96.52"/>
 </segment>
 </net>
-<net name="MX" class="0">
+<net name="MX" class="1">
 <segment>
 <pinref part="U$13" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-93.98" x2="48.26" y2="-96.52" width="0.1524" layer="91"/>
@@ -5716,7 +5720,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="MOTOR-RR-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MHH" class="0">
+<net name="MHH" class="1">
 <segment>
 <pinref part="U$14" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-96.52" x2="111.76" y2="-96.52" width="0.1524" layer="91"/>
@@ -5758,7 +5762,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="-149.86"/>
 </segment>
 </net>
-<net name="MCX" class="0">
+<net name="MCX" class="1">
 <segment>
 <pinref part="U$16" gate="G$1" pin="SOURCE"/>
 <pinref part="U$17" gate="G$1" pin="SOURCE"/>
@@ -5769,7 +5773,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="-134.62"/>
 </segment>
 </net>
-<net name="MN" class="0">
+<net name="MN" class="1">
 <segment>
 <pinref part="U$16" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-132.08" x2="48.26" y2="-134.62" width="0.1524" layer="91"/>
@@ -5777,7 +5781,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="MOTOR-RL-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MZZ" class="0">
+<net name="MZZ" class="1">
 <segment>
 <pinref part="U$17" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-134.62" x2="111.76" y2="-134.62" width="0.1524" layer="91"/>
@@ -5819,7 +5823,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="-187.96"/>
 </segment>
 </net>
-<net name="MVVV" class="0">
+<net name="MVVV" class="1">
 <segment>
 <pinref part="U$20" gate="G$1" pin="SOURCE"/>
 <pinref part="U$21" gate="G$1" pin="SOURCE"/>
@@ -5830,7 +5834,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="-172.72"/>
 </segment>
 </net>
-<net name="MGG" class="0">
+<net name="MGG" class="1">
 <segment>
 <pinref part="U$20" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-170.18" x2="48.26" y2="-172.72" width="0.1524" layer="91"/>
@@ -5838,7 +5842,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="ARM-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MHGF" class="0">
+<net name="MHGF" class="1">
 <segment>
 <pinref part="U$21" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-172.72" x2="111.76" y2="-172.72" width="0.1524" layer="91"/>
@@ -5880,7 +5884,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="91.44" y="-226.06"/>
 </segment>
 </net>
-<net name="MJUY" class="0">
+<net name="MJUY" class="1">
 <segment>
 <pinref part="U$24" gate="G$1" pin="SOURCE"/>
 <pinref part="U$25" gate="G$1" pin="SOURCE"/>
@@ -5891,7 +5895,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="-210.82"/>
 </segment>
 </net>
-<net name="MDSDS" class="0">
+<net name="MDSDS" class="1">
 <segment>
 <pinref part="U$24" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-208.28" x2="48.26" y2="-210.82" width="0.1524" layer="91"/>
@@ -5899,7 +5903,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="BIO-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MHHHH" class="0">
+<net name="MHHHH" class="1">
 <segment>
 <pinref part="U$25" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-210.82" x2="111.76" y2="-210.82" width="0.1524" layer="91"/>
@@ -5928,7 +5932,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="129.54" y1="-228.6" x2="127" y2="-228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="OUT" class="0">
+<net name="OUT" class="1">
 <segment>
 <pinref part="SW6" gate="G$1" pin="LR"/>
 <wire x1="104.14" y1="55.88" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
@@ -5984,7 +5988,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="20.32" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ML" class="0">
+<net name="ML" class="1">
 <segment>
 <pinref part="ARDUINO-OUT1" gate="G$1" pin="P$1"/>
 <wire x1="185.42" y1="12.7" x2="185.42" y2="15.24" width="0.1524" layer="91"/>
@@ -6014,7 +6018,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="200.66" y1="7.62" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MAD" class="0">
+<net name="MAD" class="1">
 <segment>
 <pinref part="JETSON-OUT1" gate="G$1" pin="P$1"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="66.04" width="0.1524" layer="91"/>

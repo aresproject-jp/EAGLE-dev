@@ -5272,7 +5272,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="81.28" y="68.58"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="18V" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
