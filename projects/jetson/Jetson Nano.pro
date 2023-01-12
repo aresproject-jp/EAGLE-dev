@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/zakis/OneDrive/Documents/GitHub/EAGLE-dev/projects/jetson/Jetson Nano.brd
+Job           : C:/Users/KATO SHUNSUKE/Documents/GitHub/EAGLE-dev/projects/jetson/Jetson Nano.brd
 
-Start at      : 00:41:33 (12/01/2023)
-End at        : 00:41:49 (12/01/2023)
-Elapsed time  : 00:00:14
+Start at      : 02:09:26 (2023/01/13)
+End at        : 02:10:11 (2023/01/13)
+Elapsed time  : 00:00:43
 
-Signals       :    26   RoutingGrid: 10 mil  Layers: 2
-Connections   :    46   predefined:  0 ( 0 Vias )
+Signals       :    25   RoutingGrid: 7.5 mil  Layers: 2
+Connections   :    44   predefined:  0 ( 0 Vias )
 
-Router memory :   548464
+Router memory :   1253488
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:04  00:00:00  00:00:01  00:00:01  00:00:01  00:00:01  00:00:00  00:00:01  00:00:01  00:00:01  00:00:00  00:00:01  00:00:01  00:00:01
+Time per pass     :  00:00:05  00:00:01  00:00:04  00:00:03  00:00:03  00:00:03  00:00:03  00:00:03  00:00:03  00:00:03  00:00:03  00:00:02  00:00:03  00:00:04
 Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        39        46        46        46        46        46        46        46        46        46        46        46        46        46
-Vias              :         0         0         4         0         0         0         0         0         1         0         0         0         0         0
-Resolution        :    84.8 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        41        43        43        44        44        44        44        44        44        44        44        44        44        44
+Vias              :         0         0         6         5         4         4         4         4         4         4         3         4         4         4
+Resolution        :    93.2 %    97.7 %    97.7 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
