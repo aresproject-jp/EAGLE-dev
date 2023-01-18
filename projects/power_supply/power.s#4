@@ -4938,7 +4938,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="L7" library="Chip LED" library_urn="urn:adsk.eagle:library:38473657" deviceset="OSXX1608C1A" device="" package3d_urn="urn:adsk.eagle:package:38473660/2"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="JETSON-OUT" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="JETSON18V-OUT" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
 <part name="JETSON-IN" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
 <part name="U$1" library="2SJ334" deviceset="2SJ334" device="" package3d_urn="urn:adsk.eagle:package:38731260/2"/>
 <part name="U$5" library="2SJ334" deviceset="2SJ334" device="" package3d_urn="urn:adsk.eagle:package:38731260/2"/>
@@ -4947,7 +4947,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="L1" library="Chip LED" library_urn="urn:adsk.eagle:library:38473657" deviceset="OSXX1608C1A" device="" package3d_urn="urn:adsk.eagle:package:38473660/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="ARDUINO-OUT" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="ARDUINO18V-OUT" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
 <part name="ARDUINO-IN" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
 <part name="U$7" library="2SJ334" deviceset="2SJ334" device="" package3d_urn="urn:adsk.eagle:package:38731260/2"/>
 <part name="U$8" library="2SJ334" deviceset="2SJ334" device="" package3d_urn="urn:adsk.eagle:package:38731260/2"/>
@@ -5005,10 +5005,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="BIO-OUT" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
 <part name="BIO-IN" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
-<part name="JETSON-OUT1" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
-<part name="ARDUINO-OUT2" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
-<part name="ARDUINO-OUT1" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
-<part name="ARDUINO-OUT3" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="JETSON5V-IN" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="ARDUINO5V-IN" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="ARDUINO5V-OUT1" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="ARDUINO5V-OUT2" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="ARDUINO5V-OUT3" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="JETSON5V-OUT1" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="JETSON5V-OUT2" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5037,7 +5040,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="125.73" y="56.9214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="125.73" y="61.722" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JETSON-OUT" gate="G$1" x="114.3" y="81.28" smashed="yes">
+<instance part="JETSON18V-OUT" gate="G$1" x="114.3" y="81.28" smashed="yes">
 <attribute name="NAME" x="111.76" y="86.36" size="1.27" layer="95"/>
 </instance>
 <instance part="JETSON-IN" gate="G$1" x="45.72" y="76.2" smashed="yes">
@@ -5064,7 +5067,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="125.73" y="6.1214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="125.73" y="10.922" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="ARDUINO-OUT" gate="G$1" x="114.3" y="33.02" smashed="yes">
+<instance part="ARDUINO18V-OUT" gate="G$1" x="114.3" y="33.02" smashed="yes">
 <attribute name="NAME" x="111.76" y="38.1" size="1.27" layer="95"/>
 </instance>
 <instance part="ARDUINO-IN" gate="G$1" x="45.72" y="25.4" smashed="yes">
@@ -5236,17 +5239,26 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="BIO-IN" gate="G$1" x="45.72" y="-203.2" smashed="yes">
 <attribute name="NAME" x="43.18" y="-198.12" size="1.27" layer="95"/>
 </instance>
-<instance part="JETSON-OUT1" gate="G$1" x="172.72" y="71.12" smashed="yes">
+<instance part="JETSON5V-IN" gate="G$1" x="172.72" y="71.12" smashed="yes">
 <attribute name="NAME" x="170.18" y="76.2" size="1.27" layer="95"/>
 </instance>
-<instance part="ARDUINO-OUT2" gate="G$1" x="172.72" y="20.32" smashed="yes">
+<instance part="ARDUINO5V-IN" gate="G$1" x="172.72" y="20.32" smashed="yes">
 <attribute name="NAME" x="170.18" y="25.4" size="1.27" layer="95"/>
 </instance>
-<instance part="ARDUINO-OUT1" gate="G$1" x="185.42" y="20.32" smashed="yes">
-<attribute name="NAME" x="182.88" y="25.4" size="1.27" layer="95"/>
+<instance part="ARDUINO5V-OUT1" gate="G$1" x="190.5" y="20.32" smashed="yes">
+<attribute name="NAME" x="187.96" y="25.4" size="1.27" layer="95"/>
 </instance>
-<instance part="ARDUINO-OUT3" gate="G$1" x="198.12" y="20.32" smashed="yes">
-<attribute name="NAME" x="195.58" y="25.4" size="1.27" layer="95"/>
+<instance part="ARDUINO5V-OUT2" gate="G$1" x="208.28" y="20.32" smashed="yes">
+<attribute name="NAME" x="205.74" y="25.4" size="1.27" layer="95"/>
+</instance>
+<instance part="ARDUINO5V-OUT3" gate="G$1" x="226.06" y="20.32" smashed="yes">
+<attribute name="NAME" x="223.52" y="25.4" size="1.27" layer="95"/>
+</instance>
+<instance part="JETSON5V-OUT1" gate="G$1" x="190.5" y="71.12" smashed="yes">
+<attribute name="NAME" x="187.96" y="76.2" size="1.27" layer="95"/>
+</instance>
+<instance part="JETSON5V-OUT2" gate="G$1" x="205.74" y="71.12" smashed="yes">
+<attribute name="NAME" x="203.2" y="76.2" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -5293,7 +5305,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="L7" gate="G$1" pin="AN"/>
 <wire x1="111.76" y1="66.04" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <junction x="111.76" y="68.58"/>
-<pinref part="JETSON-OUT" gate="G$1" pin="P$1"/>
+<pinref part="JETSON18V-OUT" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -5329,7 +5341,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="116.84" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="50.8" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <junction x="111.76" y="45.72"/>
-<pinref part="JETSON-OUT" gate="G$1" pin="P$2"/>
+<pinref part="JETSON18V-OUT" gate="G$1" pin="P$2"/>
 <pinref part="JETSON-IN" gate="G$1" pin="P$1"/>
 <wire x1="45.72" y1="71.12" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
@@ -5353,7 +5365,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="116.84" y1="0" x2="111.76" y2="0" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="0" x2="111.76" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="111.76" y="-5.08"/>
-<pinref part="ARDUINO-OUT" gate="G$1" pin="P$2"/>
+<pinref part="ARDUINO18V-OUT" gate="G$1" pin="P$2"/>
 <wire x1="45.72" y1="20.32" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-2.54" x2="104.14" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-2.54" x2="104.14" y2="-5.08" width="0.1524" layer="91"/>
@@ -5546,7 +5558,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="L1" gate="G$1" pin="AN"/>
 <wire x1="111.76" y1="15.24" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 <junction x="111.76" y="17.78"/>
-<pinref part="ARDUINO-OUT" gate="G$1" pin="P$1"/>
+<pinref part="ARDUINO18V-OUT" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5990,46 +6002,66 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="ML" class="1">
 <segment>
-<pinref part="ARDUINO-OUT1" gate="G$1" pin="P$1"/>
-<wire x1="185.42" y1="12.7" x2="185.42" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="ARDUINO-OUT2" gate="G$1" pin="P$1"/>
+<pinref part="ARDUINO5V-OUT1" gate="G$1" pin="P$1"/>
+<wire x1="190.5" y1="12.7" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="ARDUINO5V-IN" gate="G$1" pin="P$1"/>
 <wire x1="172.72" y1="15.24" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="12.7" x2="185.42" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
-<junction x="172.72" y="12.7"/>
-<wire x1="185.42" y1="12.7" x2="198.12" y2="12.7" width="0.1524" layer="91"/>
-<junction x="185.42" y="12.7"/>
-<pinref part="ARDUINO-OUT3" gate="G$1" pin="P$1"/>
-<wire x1="198.12" y1="12.7" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="12.7" x2="190.5" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="12.7" x2="208.28" y2="12.7" width="0.1524" layer="91"/>
+<junction x="190.5" y="12.7"/>
+<pinref part="ARDUINO5V-OUT2" gate="G$1" pin="P$1"/>
+<wire x1="208.28" y1="12.7" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="12.7" x2="226.06" y2="12.7" width="0.1524" layer="91"/>
+<junction x="208.28" y="12.7"/>
+<pinref part="ARDUINO5V-OUT3" gate="G$1" pin="P$1"/>
+<wire x1="226.06" y1="12.7" x2="226.06" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="ARDUINO-OUT1" gate="G$1" pin="P$2"/>
-<wire x1="187.96" y1="7.62" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="ARDUINO-OUT2" gate="G$1" pin="P$2"/>
+<pinref part="ARDUINO5V-OUT1" gate="G$1" pin="P$2"/>
+<wire x1="193.04" y1="7.62" x2="193.04" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="ARDUINO5V-IN" gate="G$1" pin="P$2"/>
 <wire x1="175.26" y1="15.24" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="7.62" x2="187.96" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="7.62" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
-<junction x="175.26" y="7.62"/>
-<wire x1="187.96" y1="7.62" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
-<junction x="187.96" y="7.62"/>
-<pinref part="ARDUINO-OUT3" gate="G$1" pin="P$2"/>
-<wire x1="200.66" y1="7.62" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="7.62" x2="193.04" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="7.62" x2="210.82" y2="7.62" width="0.1524" layer="91"/>
+<junction x="193.04" y="7.62"/>
+<pinref part="ARDUINO5V-OUT2" gate="G$1" pin="P$2"/>
+<wire x1="210.82" y1="7.62" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="7.62" x2="228.6" y2="7.62" width="0.1524" layer="91"/>
+<junction x="210.82" y="7.62"/>
+<pinref part="ARDUINO5V-OUT3" gate="G$1" pin="P$2"/>
+<wire x1="228.6" y1="7.62" x2="228.6" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAD" class="1">
 <segment>
-<pinref part="JETSON-OUT1" gate="G$1" pin="P$1"/>
+<pinref part="JETSON5V-IN" gate="G$1" pin="P$1"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="JETSON5V-OUT1" gate="G$1" pin="P$1"/>
+<wire x1="172.72" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="63.5" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
+<junction x="172.72" y="63.5"/>
+<wire x1="190.5" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<junction x="190.5" y="63.5"/>
+<pinref part="JETSON5V-OUT2" gate="G$1" pin="P$1"/>
+<wire x1="205.74" y1="63.5" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="JETSON-OUT1" gate="G$1" pin="P$2"/>
+<pinref part="JETSON5V-IN" gate="G$1" pin="P$2"/>
 <wire x1="175.26" y1="58.42" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
+<junction x="175.26" y="58.42"/>
+<pinref part="JETSON5V-OUT1" gate="G$1" pin="P$2"/>
+<wire x1="193.04" y1="58.42" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
+<junction x="193.04" y="58.42"/>
+<pinref part="JETSON5V-OUT2" gate="G$1" pin="P$2"/>
+<wire x1="208.28" y1="58.42" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
