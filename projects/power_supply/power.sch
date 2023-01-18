@@ -6349,11 +6349,10 @@ Source: www.kingbright.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.0254" drill="0">
+<class number="0" name="default" width="0.762" drill="0">
 </class>
 <class number="1" name="power" width="2.54" drill="0">
-</class>
-<class number="2" name="New Class" width="0.254" drill="0">
+<clearance class="1" value="0.127"/>
 </class>
 </classes>
 <parts>
@@ -6704,7 +6703,7 @@ Source: www.kingbright.com</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MA" class="0">
+<net name="MA" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="SOURCE"/>
 <pinref part="U$4" gate="G$1" pin="SOURCE"/>
@@ -6715,7 +6714,7 @@ Source: www.kingbright.com</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="18V" class="0">
+<net name="18V" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
@@ -6723,7 +6722,7 @@ Source: www.kingbright.com</description>
 <pinref part="JETSON-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MAC" class="0">
+<net name="MAC" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
@@ -6943,7 +6942,7 @@ Source: www.kingbright.com</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MKK" class="0">
+<net name="MKK" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SOURCE"/>
 <pinref part="U$5" gate="G$1" pin="SOURCE"/>
@@ -6954,7 +6953,7 @@ Source: www.kingbright.com</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MBB" class="0">
+<net name="MBB" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="20.32" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
@@ -6962,7 +6961,7 @@ Source: www.kingbright.com</description>
 <pinref part="ARDUINO-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MOO" class="0">
+<net name="MOO" class="1">
 <segment>
 <pinref part="U$5" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
@@ -6998,7 +6997,7 @@ Source: www.kingbright.com</description>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MS" class="0">
+<net name="MS" class="1">
 <segment>
 <pinref part="U$7" gate="G$1" pin="SOURCE"/>
 <pinref part="U$8" gate="G$1" pin="SOURCE"/>
@@ -7009,7 +7008,7 @@ Source: www.kingbright.com</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MU" class="0">
+<net name="MU" class="1">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-17.78" x2="48.26" y2="-20.32" width="0.1524" layer="91"/>
@@ -7017,7 +7016,7 @@ Source: www.kingbright.com</description>
 <pinref part="MOTOR-FR-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$13" class="1">
 <segment>
 <pinref part="U$8" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-20.32" x2="111.76" y2="-20.32" width="0.1524" layer="91"/>
@@ -7053,7 +7052,7 @@ Source: www.kingbright.com</description>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MH" class="0">
+<net name="MH" class="1">
 <segment>
 <pinref part="U$10" gate="G$1" pin="SOURCE"/>
 <pinref part="U$11" gate="G$1" pin="SOURCE"/>
@@ -7064,7 +7063,7 @@ Source: www.kingbright.com</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MY" class="0">
+<net name="MY" class="1">
 <segment>
 <pinref part="U$10" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-55.88" x2="48.26" y2="-58.42" width="0.1524" layer="91"/>
@@ -7072,7 +7071,7 @@ Source: www.kingbright.com</description>
 <pinref part="MOTOR-FL-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MV" class="0">
+<net name="MV" class="1">
 <segment>
 <pinref part="U$11" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-58.42" x2="111.76" y2="-58.42" width="0.1524" layer="91"/>
@@ -7108,7 +7107,7 @@ Source: www.kingbright.com</description>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MBV" class="0">
+<net name="MBV" class="1">
 <segment>
 <pinref part="U$13" gate="G$1" pin="SOURCE"/>
 <pinref part="U$14" gate="G$1" pin="SOURCE"/>
@@ -7119,7 +7118,7 @@ Source: www.kingbright.com</description>
 <pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MX" class="0">
+<net name="MX" class="1">
 <segment>
 <pinref part="U$13" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-93.98" x2="48.26" y2="-96.52" width="0.1524" layer="91"/>
@@ -7127,7 +7126,7 @@ Source: www.kingbright.com</description>
 <pinref part="MOTOR-RR-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MHH" class="0">
+<net name="MHH" class="1">
 <segment>
 <pinref part="U$14" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-96.52" x2="111.76" y2="-96.52" width="0.1524" layer="91"/>
@@ -7163,7 +7162,7 @@ Source: www.kingbright.com</description>
 <pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MCX" class="0">
+<net name="MCX" class="1">
 <segment>
 <pinref part="U$16" gate="G$1" pin="SOURCE"/>
 <pinref part="U$17" gate="G$1" pin="SOURCE"/>
@@ -7174,7 +7173,7 @@ Source: www.kingbright.com</description>
 <pinref part="R16" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MN" class="0">
+<net name="MN" class="1">
 <segment>
 <pinref part="U$16" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-132.08" x2="48.26" y2="-134.62" width="0.1524" layer="91"/>
@@ -7182,7 +7181,7 @@ Source: www.kingbright.com</description>
 <pinref part="MOTOR-RL-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MZZ" class="0">
+<net name="MZZ" class="1">
 <segment>
 <pinref part="U$17" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-134.62" x2="111.76" y2="-134.62" width="0.1524" layer="91"/>
@@ -7218,7 +7217,7 @@ Source: www.kingbright.com</description>
 <pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MVVV" class="0">
+<net name="MVVV" class="1">
 <segment>
 <pinref part="U$20" gate="G$1" pin="SOURCE"/>
 <pinref part="U$21" gate="G$1" pin="SOURCE"/>
@@ -7229,7 +7228,7 @@ Source: www.kingbright.com</description>
 <pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MGG" class="0">
+<net name="MGG" class="1">
 <segment>
 <pinref part="U$20" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-170.18" x2="48.26" y2="-172.72" width="0.1524" layer="91"/>
@@ -7237,7 +7236,7 @@ Source: www.kingbright.com</description>
 <pinref part="ARM-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MHGF" class="0">
+<net name="MHGF" class="1">
 <segment>
 <pinref part="U$21" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-172.72" x2="111.76" y2="-172.72" width="0.1524" layer="91"/>
@@ -7273,7 +7272,7 @@ Source: www.kingbright.com</description>
 <pinref part="R22" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="MJUY" class="0">
+<net name="MJUY" class="1">
 <segment>
 <pinref part="U$24" gate="G$1" pin="SOURCE"/>
 <pinref part="U$25" gate="G$1" pin="SOURCE"/>
@@ -7284,7 +7283,7 @@ Source: www.kingbright.com</description>
 <pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MDSDS" class="0">
+<net name="MDSDS" class="1">
 <segment>
 <pinref part="U$24" gate="G$1" pin="DRAIN"/>
 <wire x1="48.26" y1="-208.28" x2="48.26" y2="-210.82" width="0.1524" layer="91"/>
@@ -7292,7 +7291,7 @@ Source: www.kingbright.com</description>
 <pinref part="BIO-IN" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="MHHHH" class="0">
+<net name="MHHHH" class="1">
 <segment>
 <pinref part="U$25" gate="G$1" pin="DRAIN"/>
 <wire x1="96.52" y1="-210.82" x2="111.76" y2="-210.82" width="0.1524" layer="91"/>
@@ -7371,7 +7370,7 @@ Source: www.kingbright.com</description>
 <label x="20.32" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ML" class="0">
+<net name="ML" class="1">
 <segment>
 <pinref part="ARDUINO5V-OUT1" gate="G$1" pin="P$1"/>
 <wire x1="190.5" y1="12.7" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
@@ -7388,7 +7387,7 @@ Source: www.kingbright.com</description>
 <wire x1="226.06" y1="12.7" x2="226.06" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$9" class="1">
 <segment>
 <pinref part="ARDUINO5V-OUT1" gate="G$1" pin="P$2"/>
 <wire x1="193.04" y1="7.62" x2="193.04" y2="15.24" width="0.1524" layer="91"/>
@@ -7405,7 +7404,7 @@ Source: www.kingbright.com</description>
 <wire x1="228.6" y1="7.62" x2="228.6" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MAD" class="0">
+<net name="MAD" class="1">
 <segment>
 <pinref part="JETSON5V-IN" gate="G$1" pin="P$1"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
@@ -7420,7 +7419,7 @@ Source: www.kingbright.com</description>
 <wire x1="205.74" y1="63.5" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="N$18" class="1">
 <segment>
 <pinref part="JETSON5V-IN" gate="G$1" pin="P$2"/>
 <wire x1="175.26" y1="58.42" x2="175.26" y2="66.04" width="0.1524" layer="91"/>

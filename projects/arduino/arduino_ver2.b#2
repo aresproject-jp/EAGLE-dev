@@ -8442,11 +8442,11 @@ design rules under a new name.</description>
 <wire x1="66.42" y1="131.32" x2="66.6296" y2="131.5296" width="0.508" layer="1"/>
 <wire x1="66.6296" y1="131.5296" x2="66.6296" y2="132.1423375" width="0.508" layer="1"/>
 <wire x1="66.6296" y1="132.1423375" x2="67.8372625" y2="133.35" width="0.508" layer="1"/>
+<wire x1="67.8372625" y1="133.35" x2="68.58" y2="133.35" width="0.508" layer="1"/>
+<wire x1="68.58" y1="133.35" x2="69.85" y2="133.35" width="0.508" layer="1"/>
 <wire x1="69.85" y1="133.35" x2="70.23" y2="132.97" width="0.508" layer="1"/>
 <wire x1="70.23" y1="132.97" x2="70.23" y2="131.466" width="0.508" layer="1"/>
-<wire x1="70.23" y1="131.466" x2="70.0204" y2="131.466" width="0.508" layer="1"/>
-<wire x1="67.8372625" y1="133.35" x2="69.85" y2="133.35" width="0.508" layer="1"/>
-<wire x1="70.0204" y1="131.466" x2="70.23" y2="131.32" width="0" layer="19" extent="1-1"/>
+<wire x1="70.23" y1="131.466" x2="70.23" y2="131.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="U$1" pad="VDD"/>
@@ -8846,6 +8846,27 @@ design rules under a new name.</description>
 <wire x1="92.67825" y1="5.334" x2="92.67825" y2="21.8694" width="0.381" layer="16"/>
 <wire x1="67.2084" y1="47.7393" x2="67.07505" y2="47.87265" width="0.381" layer="16"/>
 <wire x1="92.67825" y1="5.334" x2="92.71" y2="5.08" width="0.381" layer="16"/>
+<polygon width="0.508" layer="1">
+<vertex x="6.35" y="175.26"/>
+<vertex x="149.86" y="175.26"/>
+<vertex x="157.48" y="167.64"/>
+<vertex x="157.48" y="2.54"/>
+<vertex x="148.59" y="-6.35"/>
+<vertex x="2.54" y="-6.35"/>
+<vertex x="-6.35" y="2.54"/>
+<vertex x="-6.35" y="171.45"/>
+<vertex x="-2.54" y="175.26"/>
+</polygon>
+<polygon width="0.508" layer="16">
+<vertex x="-2.54" y="179.07"/>
+<vertex x="149.86" y="179.07"/>
+<vertex x="160.02" y="168.91"/>
+<vertex x="160.02" y="2.54"/>
+<vertex x="147.32" y="-10.16"/>
+<vertex x="1.27" y="-10.16"/>
+<vertex x="-12.7" y="3.81"/>
+<vertex x="-12.7" y="168.91"/>
+</polygon>
 </signal>
 <signal name="DIR1">
 <contactref element="RF" pad="P$2"/>
