@@ -192,6 +192,10 @@
 <hole x="106" y="86" drill="3"/>
 <hole x="106" y="-6" drill="3"/>
 <hole x="-6" y="-6" drill="3"/>
+<hole x="10.15" y="4.05" drill="3.5"/>
+<hole x="10.15" y="62.05" drill="3.5"/>
+<hole x="96.15" y="62.05" drill="3.5"/>
+<hole x="96.15" y="4.05" drill="3.5"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
