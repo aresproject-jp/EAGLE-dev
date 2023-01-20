@@ -2,24 +2,26 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/zakis/OneDrive/Documents/GitHub/EAGLE-dev/projects/jetson/Jetson Nano.brd
 
-Start at      : 21:44:51 (10/01/2023)
-End at        : 21:44:58 (10/01/2023)
-Elapsed time  : 00:00:02
+Start at      : 15:21:18 (20/01/2023)
+End at        : 15:21:28 (20/01/2023)
+Elapsed time  : 00:00:08
 
-Signals       :    26   RoutingGrid: 19.685 mil  Layers: 2
+Signals       :    25   RoutingGrid: 9.84252 mil  Layers: 1
 Connections   :    44   predefined:  0 ( 0 Vias )
 
-Router memory :   147232
+Router memory :   398208
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Job has been interrupted!
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00
-Number of Ripups  :         0         2         0         0         0         0
-max. Level        :         0         2         0         0         0         0
-max. Total        :         0         6         0         0         0         0
+Passname          :    Busses     Route
 
-Routed            :         4        43        43        43        43        43
-Vias              :         0        27         6         2         2         2
-Resolution        :     9.1 %    97.7 %    97.7 %    97.7 %    97.7 %    97.7 %
+Time per pass     :  00:00:00  00:00:08
+Number of Ripups  :         0        45
+max. Level        :         0         2
+max. Total        :         0         9
+
+Routed            :         0        25
+Vias              :         0         0
+Resolution        :     0.0 %    56.8 %
 
 Final             : 
