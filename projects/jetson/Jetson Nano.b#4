@@ -1550,10 +1550,10 @@ type 0207, grid 10 mm</description>
 <class number="0" name="default" width="0.6096" drill="0">
 </class>
 <class number="1" name="PW" width="2.54" drill="0">
-<clearance class="1" value="0.6604"/>
+<clearance class="1" value="0.508"/>
 </class>
 <class number="2" name="CAN" width="0.6096" drill="0">
-<clearance class="2" value="0.254"/>
+<clearance class="2" value="0.127"/>
 </class>
 </classes>
 <designrules name="default">
@@ -1645,12 +1645,12 @@ design rules under a new name.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="50mil"/>
+<param name="RoutingGrid" value="0.125mm"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -1665,8 +1665,8 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
-<param name="cfVia" value="8"/>
+<param name="PrefDir.16" value="*"/>
+<param name="cfVia" value="90"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
 <param name="cfOrthStep" value="2"/>
@@ -1704,8 +1704,10 @@ design rules under a new name.</description>
 <param name="mnRipupTotal" value="100"/>
 </pass>
 <pass name="Follow-me" refer="Default" active="yes">
+<param name="cfVia" value="8"/>
 </pass>
 <pass name="Busses" refer="Default" active="yes">
+<param name="cfVia" value="8"/>
 <param name="cfNonPref" value="4"/>
 <param name="cfBusImpact" value="4"/>
 <param name="cfHugging" value="0"/>
@@ -1715,28 +1717,33 @@ design rules under a new name.</description>
 </pass>
 <pass name="Optimize1" refer="Default" active="yes">
 <param name="cfVia" value="99"/>
-<param name="cfExtdStep" value="10"/>
-<param name="cfHugging" value="1"/>
-<param name="mnExtdSteps" value="1"/>
-<param name="mnRipupLevel" value="0"/>
 </pass>
 <pass name="Optimize2" refer="Optimize1" active="yes">
-<param name="cfNonPref" value="0"/>
-<param name="cfChangeDir" value="6"/>
-<param name="cfExtdStep" value="0"/>
-<param name="cfBonusStep" value="2"/>
-<param name="cfMalusStep" value="2"/>
-<param name="cfPadImpact" value="2"/>
-<param name="cfSmdImpact" value="2"/>
-<param name="cfHugging" value="0"/>
 </pass>
 <pass name="Optimize3" refer="Optimize2" active="yes">
-<param name="cfChangeDir" value="8"/>
-<param name="cfPadImpact" value="0"/>
-<param name="cfSmdImpact" value="0"/>
 </pass>
 <pass name="Optimize4" refer="Optimize3" active="yes">
-<param name="cfChangeDir" value="25"/>
+</pass>
+<pass name="Optimize5" refer="Optimize4" active="yes">
+</pass>
+<pass name="Optimize6" refer="Optimize5" active="yes">
+</pass>
+<pass name="Optimize7" refer="Optimize6" active="yes">
+<param name="cfBonusStep" value="0"/>
+<param name="cfMalusStep" value="0"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize8" refer="Optimize7" active="yes">
+</pass>
+<pass name="Optimize9" refer="Optimize8" active="yes">
+</pass>
+<pass name="Optimize10" refer="Optimize9" active="yes">
+</pass>
+<pass name="Optimize11" refer="Optimize10" active="yes">
+</pass>
+<pass name="Optimize12" refer="Optimize11" active="yes">
 </pass>
 </autorouter>
 <elements>
@@ -1927,9 +1934,8 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="CAN1" pad="P$2"/>
 <contactref element="CAN2" pad="P$2"/>
-<wire x1="36.957" y1="47.0535" x2="36.83" y2="46.99" width="0.6096" layer="16"/>
 <wire x1="36.83" y1="46.99" x2="22.86" y2="77.47" width="0" layer="19" extent="1-1"/>
-<wire x1="71.755" y1="22.86" x2="36.957" y2="47.0535" width="0" layer="19" extent="16-16"/>
+<wire x1="71.755" y1="22.86" x2="36.83" y2="46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="58.42" y1="3.81" x2="71.755" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STBY">
@@ -1938,9 +1944,7 @@ design rules under a new name.</description>
 <signal name="CAN_INT" class="2">
 <contactref element="MCP1" pad="INT"/>
 <contactref element="R5" pad="1"/>
-<via x="66.675" y="39.4335" extent="1-16" drill="0.35"/>
-<wire x1="64.39" y1="22.86" x2="66.675" y2="39.4335" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="46.99" x2="66.675" y2="39.4335" width="0" layer="19" extent="1-1"/>
+<wire x1="64.39" y1="22.86" x2="44.45" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="MCP1" pad="VDD"/>
@@ -1965,12 +1969,10 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="VDD"/>
 <contactref element="C3" pad="1"/>
 <contactref element="5VIN1" pad="P$1"/>
-<via x="42.291" y="53.5305" extent="1-16" drill="0.35"/>
 <wire x1="58.42" y1="53.34" x2="74.93" y2="68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="42.291" y1="53.5305" x2="58.42" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="57.15" x2="42.291" y2="53.5305" width="0" layer="19" extent="1-1"/>
 <wire x1="80.01" y1="22.86" x2="58.42" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="3.81" x2="42.291" y2="53.5305" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="57.15" x2="58.42" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="3.81" x2="11.43" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1" class="2">
 <contactref element="R2" pad="2"/>
@@ -1978,9 +1980,7 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="R3" pad="2"/>
 <contactref element="SW" pad="R"/>
-<wire x1="36.7665" y1="56.1975" x2="36.7665" y2="57.15" width="0.6096" layer="16"/>
-<wire x1="36.7665" y1="57.15" x2="36.83" y2="57.15" width="0.6096" layer="16"/>
-<wire x1="79.97" y1="-1.27" x2="36.7665" y2="56.1975" width="0" layer="19" extent="16-16"/>
+<wire x1="79.97" y1="-1.27" x2="36.83" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

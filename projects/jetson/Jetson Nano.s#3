@@ -8817,11 +8817,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <classes>
 <class number="0" name="default" width="0.6096" drill="0">
 </class>
-<class number="1" name="PW" width="2.032" drill="0">
+<class number="1" name="PW" width="2.54" drill="0">
 <clearance class="1" value="0.6604"/>
 </class>
-<class number="2" name="CAN" width="2.032" drill="0">
-<clearance class="2" value="0.6604"/>
+<class number="2" name="CAN" width="0.6096" drill="0">
+<clearance class="2" value="0.254"/>
 </class>
 </classes>
 <parts>
@@ -8956,7 +8956,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="0">
+<net name="GND_1" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="-101.6" y1="109.22" x2="-68.58" y2="109.22" width="0.1524" layer="91"/>
@@ -9271,7 +9271,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="165.1" y="245.11"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V_1" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="5V"/>
 <wire x1="116.84" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
