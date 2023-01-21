@@ -249,7 +249,6 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <class number="0" name="default" width="0.254" drill="0">
 </class>
 <class number="1" name="power" width="2.54" drill="0">
-<clearance class="1" value="0.508"/>
 </class>
 <class number="2" name="New Class" width="0.254" drill="0">
 </class>

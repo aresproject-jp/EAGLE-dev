@@ -6438,6 +6438,8 @@ Source: www.kingbright.com</description>
 <part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED9" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="U$6" library="dcdcDEVkit" deviceset="DCDCDEV" device="" package3d_urn="urn:adsk.eagle:package:38731238/2"/>
+<part name="JETSON5V-IN1" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6685,6 +6687,10 @@ Source: www.kingbright.com</description>
 <instance part="LED9" gate="G$1" x="111.76" y="-226.06" smashed="yes">
 <attribute name="NAME" x="115.316" y="-230.632" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="117.475" y="-230.632" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$6" gate="G$1" x="139.7" y="40.64" smashed="yes"/>
+<instance part="JETSON5V-IN1" gate="G$1" x="172.72" y="50.8" smashed="yes">
+<attribute name="NAME" x="170.18" y="55.88" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -7408,30 +7414,37 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="JETSON5V-IN" gate="G$1" pin="P$1"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="JETSON5V-OUT1" gate="G$1" pin="P$1"/>
-<wire x1="172.72" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="63.5" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-<junction x="172.72" y="63.5"/>
 <wire x1="190.5" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <junction x="190.5" y="63.5"/>
 <pinref part="JETSON5V-OUT2" gate="G$1" pin="P$1"/>
 <wire x1="205.74" y1="63.5" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JETSON5V-IN1" gate="G$1" pin="P$2"/>
+<wire x1="175.26" y1="45.72" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="45.72" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
+<junction x="182.88" y="63.5"/>
 </segment>
 </net>
 <net name="N$18" class="1">
 <segment>
 <pinref part="JETSON5V-IN" gate="G$1" pin="P$2"/>
 <wire x1="175.26" y1="58.42" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<junction x="175.26" y="58.42"/>
+<wire x1="175.26" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="JETSON5V-OUT1" gate="G$1" pin="P$2"/>
+<wire x1="187.96" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="58.42" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
 <junction x="193.04" y="58.42"/>
 <pinref part="JETSON5V-OUT2" gate="G$1" pin="P$2"/>
 <wire x1="208.28" y1="58.42" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JETSON5V-IN1" gate="G$1" pin="P$1"/>
+<wire x1="172.72" y1="45.72" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="40.64" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="40.64" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<junction x="187.96" y="58.42"/>
 </segment>
 </net>
 <net name="N$2" class="0">
