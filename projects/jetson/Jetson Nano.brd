@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -184,13 +184,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="-10" y1="-10" x2="110" y2="-10" width="0" layer="20"/>
-<wire x1="110" y1="-10" x2="110" y2="90" width="0" layer="20"/>
-<wire x1="110" y1="90" x2="-10" y2="90" width="0" layer="20"/>
+<wire x1="-10" y1="-10" x2="99" y2="-10" width="0" layer="20"/>
+<wire x1="99" y1="-10" x2="99" y2="90" width="0" layer="20"/>
+<wire x1="99" y1="90" x2="-10" y2="90" width="0" layer="20"/>
 <wire x1="-10" y1="90" x2="-10" y2="-10" width="0" layer="20"/>
 <hole x="-6" y="86" drill="3"/>
-<hole x="106" y="86" drill="3"/>
-<hole x="106" y="-6" drill="3"/>
+<hole x="95" y="86" drill="3"/>
+<hole x="95" y="-6" drill="3"/>
 <hole x="-6" y="-6" drill="3"/>
 <hole x="10.15" y="4.05" drill="3.5"/>
 <hole x="10.15" y="62.05" drill="3.5"/>
