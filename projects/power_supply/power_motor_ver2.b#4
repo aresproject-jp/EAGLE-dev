@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -166,7 +166,7 @@ diameter 5.3 mm, horizontal, grid 15.24 mm</description>
 <classes>
 <class number="0" name="default" width="0.762" drill="0">
 </class>
-<class number="1" name="power" width="7.62" drill="0">
+<class number="1" name="power" width="2.54" drill="0">
 <clearance class="1" value="0.127"/>
 </class>
 </classes>
@@ -422,62 +422,62 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="N$8" class="1">
+<signal name="N$8">
 <contactref element="MOTOR-FL-IN" pad="P$2"/>
 <contactref element="FL" pad="A"/>
 <wire x1="80.46" y1="1" x2="80.47" y2="12.38" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$10" class="1">
+<signal name="N$10">
 <contactref element="MOTOR-FL-OUT" pad="P$1"/>
 <contactref element="FL" pad="C"/>
 <wire x1="80.47" y1="27.62" x2="80.46" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$12" class="1">
+<signal name="N$12">
 <contactref element="MOTOR-RR-IN" pad="P$2"/>
 <contactref element="RR" pad="A"/>
 <wire x1="34.46" y1="1" x2="34.28" y2="12.38" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$13" class="1">
+<signal name="N$13">
 <contactref element="RR" pad="C"/>
 <contactref element="MOTOR-RR-OUT" pad="P$1"/>
 <wire x1="34.28" y1="27.62" x2="34.46" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$15" class="1">
+<signal name="N$15">
 <contactref element="MOTOR-RL-IN" pad="P$2"/>
 <contactref element="RL" pad="A"/>
 <wire x1="11.46" y1="1" x2="11.5" y2="12.38" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$16" class="1">
+<signal name="N$16">
 <contactref element="RL" pad="C"/>
 <contactref element="MOTOR-RL-OUT" pad="P$1"/>
 <wire x1="11.5" y1="27.62" x2="11.46" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$19" class="1">
+<signal name="N$19">
 <contactref element="ARM-IN" pad="P$2"/>
 <contactref element="ARM" pad="A"/>
 <wire x1="103.46" y1="1" x2="103.4" y2="12.38" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$20" class="1">
+<signal name="N$20">
 <contactref element="ARM" pad="C"/>
 <contactref element="ARM-OUT" pad="P$1"/>
 <wire x1="103.4" y1="27.62" x2="103.46" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$22" class="1">
+<signal name="N$22">
 <contactref element="BIO-IN" pad="P$2"/>
 <contactref element="BIO" pad="A"/>
 <wire x1="126.46" y1="1" x2="126.6" y2="12.38" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$23" class="1">
+<signal name="N$23">
 <contactref element="BIO" pad="C"/>
 <contactref element="BIO-OUT" pad="P$1"/>
 <wire x1="126.6" y1="27.62" x2="126.46" y2="40" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4" class="1">
+<signal name="N$4">
 <contactref element="FR" pad="A"/>
 <contactref element="MOTOR-FR-IN" pad="P$2"/>
 <wire x1="57.46" y1="1" x2="57.47" y2="12.38" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$5" class="1">
+<signal name="N$5">
 <contactref element="FR" pad="C"/>
 <contactref element="MOTOR-FR-OUT" pad="P$1"/>
 <wire x1="57.47" y1="27.62" x2="57.46" y2="40" width="0" layer="19" extent="1-1"/>

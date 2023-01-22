@@ -6521,6 +6521,9 @@ schottky</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JETSON18V-OUT1" library="TB113-2B-x-x-0-x-x" library_urn="urn:adsk.eagle:library:38507486" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38507490/6" override_package3d_urn="urn:adsk.eagle:package:38731294/2" override_package_urn="urn:adsk.eagle:footprint:38731295/1"/>
+<part name="U$1" library="2SJ334" deviceset="2SJ334" device="" package3d_urn="urn:adsk.eagle:package:38731260/2"/>
+<part name="R7" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1"/>
+<part name="JETSON1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5908" device="" package3d_urn="urn:adsk.eagle:package:43355/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6607,9 +6610,9 @@ schottky</description>
 <attribute name="VALUE" x="43.18" y="40.64" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="45.72" y="-7.62" smashed="yes"/>
-<instance part="JETSON" gate="1" x="63.5" y="68.58" smashed="yes">
-<attribute name="NAME" x="61.214" y="70.485" size="1.778" layer="95"/>
-<attribute name="VALUE" x="61.214" y="65.151" size="1.778" layer="96"/>
+<instance part="JETSON" gate="1" x="66.04" y="68.58" smashed="yes">
+<attribute name="NAME" x="63.754" y="70.485" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.754" y="65.151" size="1.778" layer="96"/>
 </instance>
 <instance part="ARDUINO" gate="1" x="63.5" y="17.78" smashed="yes">
 <attribute name="NAME" x="61.214" y="19.685" size="1.778" layer="95"/>
@@ -6621,26 +6624,22 @@ schottky</description>
 <instance part="GND10" gate="1" x="218.44" y="5.08" smashed="yes">
 <attribute name="VALUE" x="215.9" y="2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="JETSON18V-OUT1" gate="G$1" x="129.54" y="81.28" smashed="yes">
-<attribute name="NAME" x="127" y="86.36" size="1.27" layer="95"/>
+<instance part="JETSON18V-OUT1" gate="G$1" x="119.38" y="93.98" smashed="yes">
+<attribute name="NAME" x="116.84" y="99.06" size="1.27" layer="95"/>
+</instance>
+<instance part="U$1" gate="G$1" x="104.14" y="83.82" smashed="yes" rot="MR0"/>
+<instance part="R7" gate="G$1" x="88.9" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.5284" y="77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="91.821" y="77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JETSON1" gate="1" x="66.04" y="88.9" smashed="yes">
+<attribute name="NAME" x="63.754" y="90.805" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.754" y="85.471" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$43" class="1">
-<segment>
-<pinref part="U$4" gate="G$1" pin="GATE"/>
-<wire x1="91.44" y1="63.5" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JET" gate="G$1" pin="L"/>
-<wire x1="91.44" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="53.34" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<junction x="91.44" y="53.34"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="MA" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="SOURCE"/>
@@ -6649,7 +6648,7 @@ schottky</description>
 <junction x="81.28" y="68.58"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="JETSON" gate="1" pin="C"/>
-<wire x1="66.04" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="18V" class="1">
@@ -6657,25 +6656,24 @@ schottky</description>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="JETSON-IN" gate="G$1" pin="P$2"/>
 <pinref part="JETSON" gate="1" pin="A"/>
-<wire x1="48.26" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="68.58" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="JETSON1" gate="1" pin="A"/>
+<wire x1="58.42" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAC" class="1">
 <segment>
-<pinref part="U$4" gate="G$1" pin="DRAIN"/>
-<wire x1="96.52" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="68.58" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="73.66" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
-<junction x="111.76" y="68.58"/>
+<wire x1="114.3" y1="68.58" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JETSON18V-OUT" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="68.58" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
-<junction x="114.3" y="73.66"/>
-<pinref part="JETSON18V-OUT1" gate="G$1" pin="P$1"/>
-<wire x1="129.54" y1="73.66" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="DRAIN"/>
+<wire x1="96.52" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<junction x="111.76" y="68.58"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -6815,8 +6813,7 @@ schottky</description>
 <net name="GND" class="0">
 <segment>
 <wire x1="104.14" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="76.2" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="71.12" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="76.2" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="68.58" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
@@ -6833,10 +6830,10 @@ schottky</description>
 <junction x="111.76" y="45.72"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="45.72" y="45.72"/>
-<wire x1="116.84" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
-<junction x="116.84" y="71.12"/>
 <pinref part="JETSON18V-OUT1" gate="G$1" pin="P$2"/>
-<wire x1="132.08" y1="71.12" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="88.9" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
+<junction x="132.08" y="68.58"/>
 </segment>
 <segment>
 <pinref part="ARDUINO-IN" gate="G$1" pin="P$1"/>
@@ -6886,6 +6883,46 @@ schottky</description>
 <wire x1="210.82" y1="7.62" x2="218.44" y2="7.62" width="0.1524" layer="91"/>
 <junction x="210.82" y="7.62"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="N$4" class="1">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GATE"/>
+<wire x1="99.06" y1="83.82" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="U$4" gate="G$1" pin="GATE"/>
+<pinref part="JET" gate="G$1" pin="L"/>
+<wire x1="91.44" y1="63.5" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="53.34" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="55.88" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<junction x="91.44" y="53.34"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="73.66" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<junction x="99.06" y="73.66"/>
+<junction x="99.06" y="53.34"/>
+</segment>
+</net>
+<net name="MA1" class="1">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SOURCE"/>
+<wire x1="88.9" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="86.36" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
+<junction x="88.9" y="88.9"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="JETSON1" gate="1" pin="C"/>
+<wire x1="68.58" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DRAIN"/>
+<pinref part="JETSON18V-OUT1" gate="G$1" pin="P$1"/>
+<wire x1="104.14" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
